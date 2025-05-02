@@ -1,0 +1,53 @@
+import unreal
+import os
+import time
+
+MUSIC_FOLDER = r"C:\Users\s436490\Desktop\Music Visualization\hci-project-unreal-engine\Content\Musik"
+
+def get_newest_mp3(folder_path):
+    mp3_files = []
+    for file in os.listdir(folder_path):
+        if file.lower().endswith('.mp3'):
+            full_path = os.path.join(folder_path, file)
+            mp3_files.append((full_path, os.path.getmtime(full_path)))
+    
+    if not mp3_files:
+        return None
+    
+    # Sort by modification time (newest first) and return the path of the newest file
+    newest_file = sorted(mp3_files, key=lambda x: x[1], reverse=True)[0][0]
+    return newest_file
+
+def update_song_name(actor, new_path):
+    try:
+        actor.set_editor_property('song_name', new_path)
+        print(f"Updated song_name to: {new_path}")
+    except Exception as e:
+        print(f"Error updating song_name: {e}")
+
+def main():
+    # Find the audioAnaly_Plugin actor in the scene
+    all_actors = unreal.EditorLevelLibrary.get_all_level_actors()
+    audio_analy_actor = None
+    for actor in all_actors:
+        if actor.get_name().startswith('audioAnaly_Plugin'):
+            audio_analy_actor = actor
+            break
+
+    if not audio_analy_actor:
+        print("audioAnaly_Plugin not found in the scene.")
+        return
+
+    # Get the newest MP3 file
+    newest_file = get_newest_mp3(MUSIC_FOLDER)
+
+    if not newest_file:
+        print(f"No MP3 files found in {MUSIC_FOLDER}")
+        return
+
+    # Update song_name with the newest MP3 file
+    update_song_name(audio_analy_actor, newest_file)
+    print("Complete.")
+
+if __name__ == "__main__":
+    main()
