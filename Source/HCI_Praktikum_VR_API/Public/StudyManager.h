@@ -5,6 +5,7 @@
 #include "GameFramework/Actor.h"
 #include "StudyManager.generated.h"
 
+// --- ENUMS remain the same ---
 UENUM(BlueprintType)
 enum class EBetweenCondition : uint8
 {
@@ -26,6 +27,7 @@ enum class EConditionType : uint8
     NoInteraction UMETA(DisplayName = "No Interaction"),
     WithInteraction UMETA(DisplayName = "With Interaction")
 };
+// --- END ENUMS ---
 
 USTRUCT(BlueprintType)
 struct FSAMData
@@ -33,17 +35,35 @@ struct FSAMData
     GENERATED_BODY()
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Questionnaire")
-    int32 Valence;
+    int32 Valence = 0; // Default values
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Questionnaire")
-    int32 Arousal;
+    int32 Arousal = 0; // Default values
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Questionnaire")
-    int32 Dominance;
+    int32 Dominance = 0; // Default values
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Questionnaire")
-    int32 Presence;
+    int32 Presence = 0; // Default values (Single Item Presence)
 };
+
+// *** ADDED GEMS Data Structure ***
+USTRUCT(BlueprintType)
+struct FGemsData
+{
+    GENERATED_BODY()
+
+    // Assuming 9 GEMS items, store their scores
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Questionnaire|GEMS")
+    TArray<int32> GemsScores;
+
+    FGemsData()
+    {
+        // Initialize with 9 default values (e.g., 0 or a mid-point if scale is known)
+        GemsScores.Init(0, 9);
+    }
+};
+
 
 USTRUCT(BlueprintType)
 struct FConditionData
@@ -54,7 +74,11 @@ struct FConditionData
     EConditionType ConditionType;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Questionnaire")
-    FSAMData QuestionnaireData;
+    FSAMData SAMQuestionnaireData; // Renamed for clarity
+
+    // *** ADDED GEMS Data ***
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Questionnaire")
+    FGemsData GemsQuestionnaireData;
 };
 
 UCLASS()
@@ -71,7 +95,7 @@ protected:
 public:
     virtual void Tick(float DeltaTime) override;
 
-    // Study Configuration
+    // --- Study Configuration remains the same ---
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Study")
     int32 ParticipantID;
 
@@ -80,24 +104,25 @@ public:
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Study")
     EGroupType GroupType;
+    // --- END Configuration ---
 
-    // Current state
     UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Study")
     int32 CurrentConditionIndex;
 
-    // Results for each condition
     UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Study")
     TArray<FConditionData> ConditionResults;
 
-    // Blueprint callable functions
+    // --- Functions ---
     UFUNCTION(BlueprintCallable, Category = "Study")
     void InitializeStudy(int32 InParticipantID, EBetweenCondition InBetweenCondition, EGroupType InGroupType);
 
     UFUNCTION(BlueprintCallable, Category = "Study")
-    EConditionType GetNextCondition(); // Note: This returns the condition but doesn't advance index
+    EConditionType GetNextCondition();
 
+    // *** MODIFIED: Changed signature to include GEMS data ***
+    // Renamed slightly for better representation of what it does now
     UFUNCTION(BlueprintCallable, Category = "Study")
-    void RecordSAMData(int32 Valence, int32 Arousal, int32 Dominance, int32 Presence); // Advances index
+    void RecordConditionResults(int32 Valence, int32 Arousal, int32 Dominance, int32 Presence, const TArray<int32>& InGemsScores); // Advances index
 
     UFUNCTION(BlueprintCallable, Category = "Study")
     void SaveResultsToCSV();
@@ -105,7 +130,6 @@ public:
     UFUNCTION(BlueprintCallable, Category = "Study")
     bool HasMoreConditions() const;
 
-    // *** ADD THIS GETTER FUNCTION ***
     UFUNCTION(BlueprintCallable, Category = "Study")
     int32 GetTotalNumberOfConditions() const;
 

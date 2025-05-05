@@ -23,6 +23,8 @@ public class HCI_Praktikum_VR_API : ModuleRules
             "UMG",
             "AudioAnalysisTools",
             "RuntimeAudioImporter",
+            "Json",
+            "JsonUtilities",
             "SlateCore"
         });
 
