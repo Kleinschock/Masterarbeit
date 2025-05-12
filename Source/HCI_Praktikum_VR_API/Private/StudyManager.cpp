@@ -24,7 +24,18 @@ void AStudyManager::InitializeStudy(int32 InParticipantID, EBetweenCondition InB
 {
     ParticipantID = InParticipantID;
     BetweenCondition = InBetweenCondition;
-    GroupType = InGroupType;
+    GroupType = InGroupType; // GroupType is assigned here
+
+    // --- DEBUG LOGGING ADDED ---
+    const UEnum* GroupEnumForLog = StaticEnum<EGroupType>();
+    FString GroupTypeString = GroupEnumForLog ? GroupEnumForLog->GetDisplayNameTextByValue((int64)GroupType).ToString() : FString::Printf(TEXT("UnknownGroupEnum_%d"), (int32)GroupType);
+    UE_LOG(LogTemp, Warning, TEXT("AStudyManager::InitializeStudy - ParticipantID: %d, BetweenCondition: %s, Received GroupType: %s (Value: %d)"),
+        InParticipantID,
+        *StaticEnum<EBetweenCondition>()->GetDisplayNameTextByValue((int64)InBetweenCondition).ToString(),
+        *GroupTypeString,
+        (int32)InGroupType);
+    // --- END DEBUG LOGGING ---
+
     CurrentConditionIndex = -1;
     ConditionResults.Empty();
     GenerateConditionSequence();
@@ -36,29 +47,57 @@ void AStudyManager::InitializeStudy(int32 InParticipantID, EBetweenCondition InB
 
 void AStudyManager::GenerateConditionSequence()
 {
+    // --- DEBUG LOGGING ADDED ---
+    const UEnum* GroupEnumForLog = StaticEnum<EGroupType>();
+    FString CurrentGroupTypeString = GroupEnumForLog ? GroupEnumForLog->GetDisplayNameTextByValue((int64)GroupType).ToString() : FString::Printf(TEXT("UnknownGroupEnum_%d"), (int32)GroupType);
+    UE_LOG(LogTemp, Warning, TEXT("AStudyManager::GenerateConditionSequence - Using GroupType: %s (Value: %d) to generate sequence."), *CurrentGroupTypeString, (int32)GroupType);
+    // --- END DEBUG LOGGING ---
+
     ConditionSequence.Empty();
     ConditionSequence.Add(EConditionType::Control); // Baseline/Control first
-    // *** NOTE: Your description mentions Active vs Passive vs Baseline.
-    //     The EConditionType enum has Control, NoInteraction, WithInteraction.
-    //     Assuming: Baseline=Control, Passive=NoInteraction, Active=WithInteraction
-    //     Adjust this logic if your mapping is different! ***
-    if (GroupType == EGroupType::A) // Example: A = Baseline -> Passive -> Active
+
+    // Assuming: Baseline=Control, Passive=NoInteraction, Active=WithInteraction
+    if (GroupType == EGroupType::A) // Example: A = Control -> NoInteraction -> WithInteraction
     {
+        UE_LOG(LogTemp, Log, TEXT("AStudyManager::GenerateConditionSequence - Group A path chosen. Adding NoInteraction then WithInteraction.")); // DEBUG LOG
         ConditionSequence.Add(EConditionType::NoInteraction);
         ConditionSequence.Add(EConditionType::WithInteraction);
     }
-    else // B = Baseline -> Active -> Passive
+    else // B = Control -> WithInteraction -> NoInteraction (covers EGroupType::B and any other unexpected values)
     {
+        UE_LOG(LogTemp, Log, TEXT("AStudyManager::GenerateConditionSequence - Group B (or other) path chosen. Adding WithInteraction then NoInteraction.")); // DEBUG LOG
         ConditionSequence.Add(EConditionType::WithInteraction);
         ConditionSequence.Add(EConditionType::NoInteraction);
     }
+
+    // --- DEBUG LOGGING ADDED ---
+    FString SequenceString = TEXT("Generated Condition Sequence: ");
+    const UEnum* ConditionEnumForLog = StaticEnum<EConditionType>();
+    if (ConditionEnumForLog)
+    {
+        for (int32 i = 0; i < ConditionSequence.Num(); ++i)
+        {
+            SequenceString += ConditionEnumForLog->GetDisplayNameTextByValue((int64)ConditionSequence[i]).ToString();
+            if (i < ConditionSequence.Num() - 1)
+            {
+                SequenceString += TEXT(" -> ");
+            }
+        }
+    }
+    else
+    {
+        SequenceString += TEXT("Could not get EConditionType enum for logging names.");
+    }
+    UE_LOG(LogTemp, Warning, TEXT("%s"), *SequenceString);
+    // --- END DEBUG LOGGING ---
+
     // *** TODO: Implement proper randomization of the non-baseline conditions here!
     // The current A/B group only counterbalances the order of the two non-baseline ones.
     // For full randomization, you'd shuffle {NoInteraction, WithInteraction} after adding Control.
     // Example using Fisher-Yates shuffle (needs #include "Algo/RandomShuffle.h"):
     // TArray<EConditionType> ConditionsToShuffle;
     // ConditionsToShuffle.Add(EConditionType::NoInteraction);
-    // ConditionsToShuffle.Add(EConditionType::WithInteraction);
+    // ConditionsToShuffle.Add(ECondiçãoType::WithInteraction);
     // Algo::RandomShuffle(ConditionsToShuffle);
     // ConditionSequence.Append(ConditionsToShuffle);
     // *** END TODO ***
@@ -75,7 +114,6 @@ EConditionType AStudyManager::GetNextCondition()
     return EConditionType::Control;
 }
 
-// *** MODIFIED: Implementation for recording all questionnaire data ***
 void AStudyManager::RecordConditionResults(int32 Valence, int32 Arousal, int32 Dominance, int32 Presence, const TArray<int32>& InGemsScores)
 {
     if (CurrentConditionIndex >= 0 && CurrentConditionIndex < ConditionSequence.Num())
@@ -83,26 +121,23 @@ void AStudyManager::RecordConditionResults(int32 Valence, int32 Arousal, int32 D
         FConditionData Data;
         Data.ConditionType = ConditionSequence[CurrentConditionIndex];
 
-        // Record SAM + Presence Data
         FSAMData SAM;
         SAM.Valence = Valence;
         SAM.Arousal = Arousal;
         SAM.Dominance = Dominance;
         SAM.Presence = Presence;
-        Data.SAMQuestionnaireData = SAM; // Assign SAM struct
+        Data.SAMQuestionnaireData = SAM;
 
-        // Record GEMS Data
         FGemsData GEMS;
         if (InGemsScores.Num() == 9)
         {
-            GEMS.GemsScores = InGemsScores; // Copy GEMS scores
+            GEMS.GemsScores = InGemsScores;
         }
         else
         {
             UE_LOG(LogTemp, Error, TEXT("RecordConditionResults: Incorrect number of GEMS scores provided (%d). Expected 9. Recording defaults."), InGemsScores.Num());
-            // GEMS struct already initializes to defaults, so we just don't overwrite
         }
-        Data.GemsQuestionnaireData = GEMS; // Assign GEMS struct
+        Data.GemsQuestionnaireData = GEMS;
 
         ConditionResults.Add(Data);
 
@@ -125,10 +160,6 @@ bool AStudyManager::HasMoreConditions() const
 
 int32 AStudyManager::GetTotalNumberOfConditions() const
 {
-    // Make sure sequence is generated if called early, though InitializeStudy should handle it.
-    // if (ConditionSequence.IsEmpty() && (GroupType == EGroupType::A || GroupType == EGroupType::B)) {
-    //     const_cast<AStudyManager*>(this)->GenerateConditionSequence(); // Be careful with const_cast
-    // }
     return ConditionSequence.Num(); // Should be 3 based on current logic
 }
 
@@ -152,31 +183,41 @@ void AStudyManager::SaveResultsToCSV()
     const UEnum* ConditionEnum = StaticEnum<EConditionType>();
 
     FString BetweenStr = BetweenEnum ? BetweenEnum->GetDisplayNameTextByValue((int64)BetweenCondition).ToString() : FString::Printf(TEXT("UnknownBetween_%d"), (int32)BetweenCondition);
-    BetweenStr = BetweenStr.Replace(TEXT(" "), TEXT("_")); // Make filename friendly
+    BetweenStr = BetweenStr.Replace(TEXT(" "), TEXT("_"));
     FString GroupStr = TEXT("UnknownGroup");
-    if (GroupType == EGroupType::A) GroupStr = TEXT("A");
-    else if (GroupType == EGroupType::B) GroupStr = TEXT("B");
-    // Add handling if you implement full randomization later
+    if (GroupEnum) // Use the enum for consistent naming
+    {
+        GroupStr = GroupEnum->GetNameStringByValue((int64)GroupType); // Gets "A" or "B" from EGroupType::A or EGroupType::B
+        // Remove the "EGroupType::" prefix if it exists, though GetNameStringByValue usually gives the short name.
+        GroupStr.RemoveFromStart(TEXT("EGroupType::"));
+    }
+    else if (GroupType == EGroupType::A) GroupStr = TEXT("A"); // Fallback
+    else if (GroupType == EGroupType::B) GroupStr = TEXT("B"); // Fallback
+
 
     FString Filename = FString::Printf(TEXT("Participant_%d_%s_Group%s.csv"), ParticipantID, *BetweenStr, *GroupStr);
     FString FilePath = SaveDirectory + Filename;
 
-    // *** MODIFIED: Add GEMS columns to header ***
     FString CSVContent = TEXT("Participant_ID,Between_Condition,Group_Type,Condition_Order,Condition_Name,Valence,Arousal,Dominance,Presence,GEMS_1,GEMS_2,GEMS_3,GEMS_4,GEMS_5,GEMS_6,GEMS_7,GEMS_8,GEMS_9\n");
 
     int32 ConditionOrder = 1;
     for (const FConditionData& Data : ConditionResults)
     {
         FString ConditionTypeStr = ConditionEnum ? ConditionEnum->GetDisplayNameTextByValue((int64)Data.ConditionType).ToString() : FString::Printf(TEXT("UnknownCondition_%d"), (int32)Data.ConditionType);
-        ConditionTypeStr = ConditionTypeStr.Replace(TEXT(" "), TEXT("_")); // Make CSV friendly
+        ConditionTypeStr = ConditionTypeStr.Replace(TEXT(" "), TEXT("_"));
 
         FString RowBetweenStr = BetweenEnum ? BetweenEnum->GetDisplayNameTextByValue((int64)BetweenCondition).ToString() : FString::Printf(TEXT("UnknownBetween_%d"), (int32)BetweenCondition);
+
         FString RowGroupStr = TEXT("UnknownGroup");
-        if (GroupType == EGroupType::A) RowGroupStr = TEXT("A");
-        else if (GroupType == EGroupType::B) RowGroupStr = TEXT("B");
+        if (GroupEnum) // Use enum for consistency
+        {
+            RowGroupStr = GroupEnum->GetNameStringByValue((int64)GroupType);
+            RowGroupStr.RemoveFromStart(TEXT("EGroupType::"));
+        }
+        else if (GroupType == EGroupType::A) RowGroupStr = TEXT("A"); // Fallback
+        else if (GroupType == EGroupType::B) RowGroupStr = TEXT("B"); // Fallback
 
 
-        // *** MODIFIED: Add GEMS scores to data row ***
         FString GemsScoresString = "";
         if (Data.GemsQuestionnaireData.GemsScores.Num() == 9)
         {
@@ -187,12 +228,11 @@ void AStudyManager::SaveResultsToCSV()
         }
         else
         {
-            // Append 9 commas with empty/default values if data is missing/invalid
-            GemsScoresString = TEXT(",,,,,,,,"); // 9 commas for 9 missing values
+            GemsScoresString = TEXT(",,,,,,,,");
             UE_LOG(LogTemp, Warning, TEXT("SaveResultsToCSV: Missing or invalid GEMS data for Participant %d, Condition %s (Order %d). Saving defaults."), ParticipantID, *ConditionTypeStr, ConditionOrder);
         }
 
-        CSVContent += FString::Printf(TEXT("%d,%s,%s,%d,%s,%d,%d,%d,%d%s\n"), // Added %s for GEMS string
+        CSVContent += FString::Printf(TEXT("%d,%s,%s,%d,%s,%d,%d,%d,%d%s\n"),
             ParticipantID,
             *RowBetweenStr,
             *RowGroupStr,
@@ -202,7 +242,7 @@ void AStudyManager::SaveResultsToCSV()
             Data.SAMQuestionnaireData.Arousal,
             Data.SAMQuestionnaireData.Dominance,
             Data.SAMQuestionnaireData.Presence,
-            *GemsScoresString); // Append the generated GEMS string
+            *GemsScoresString);
     }
 
     if (FFileHelper::SaveStringToFile(CSVContent, *FilePath))
