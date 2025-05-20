@@ -66,8 +66,8 @@
             vertical-align: middle;
         }
         textarea { width: 100%; min-height: 80px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;}
-        .jspsych-survey-html-form-group { /* Angepasst von -grubu zu -group */
-            padding-left: 0px; /* Keine zusätzliche Einrückung für Optionen, wenn Labels block sind */
+        .jspsych-survey-html-form-group { 
+            padding-left: 0px; 
         }
     </style>
 </head>
@@ -78,10 +78,10 @@
     let researcher_data = {};
 
     function objectToCsv(dataObject) {
-        if (!dataObject || Object.keys(dataObject).length === 0) return ""; // Handle empty object
+        if (!dataObject || Object.keys(dataObject).length === 0) return "";
         const header = Object.keys(dataObject).join(',');
         const values = Object.values(dataObject).map(val => {
-            if (val === null || typeof val === 'undefined') return ""; // Missing values as empty string
+            if (val === null || typeof val === 'undefined') return "";
             if (typeof val === 'string' && (val.includes(',') || val.includes('\n') || val.includes('"'))) {
                 return `"${val.replace(/"/g, '""')}"`;
             }
@@ -113,14 +113,12 @@
                 downloadTextAsFile(wide_filename, wide_csv_string);
             }
 
-            // --- JASP Data Export ---
             const jaspData = createJaspFriendlyWideData(jsPsych.data.get());
             if (jaspData) {
                 const jasp_csv_string = objectToCsv(jaspData);
-                const jasp_filename = `data_jasp_${base_filename_part}.csv`;
+                const jasp_filename = `data_jasp_${base_filename_part}.csv`; // --- MODIFIED --- filename for clarity
                 downloadTextAsFile(jasp_filename, jasp_csv_string);
             }
-            // --- End JASP Data Export ---
 
             console.log("Experiment beendet. Daten wurden gespeichert.");
             document.body.innerHTML = `<div style="display: flex; justify-content: center; align-items: center; height: 100vh; font-size: 20px; text-align: center;">Vielen Dank! Ihre Daten wurden gespeichert.<br>Sie können dieses Fenster nun schließen.</div>`;
@@ -135,22 +133,7 @@
     // --- SSQ DEFINITIONEN ---
     const ssq_scale_labels = [ "0 (gar nicht)", "1 (etwas)", "2 (mittel)", "3 (stark)" ];
     const ssq_items_german = [
-        { prompt: "Allgemeines Unwohlsein", name: 'SSQ_01_AllgUnwohlsein', labels: ssq_scale_labels, required: true },
-        { prompt: "Ermüdung", name: 'SSQ_02_Ermuedung', labels: ssq_scale_labels, required: true },
-        { prompt: "Kopfschmerzen", name: 'SSQ_03_Kopfschmerzen', labels: ssq_scale_labels, required: true },
-        { prompt: "Angestrengte Augen", name: 'SSQ_04_AngestrengteAugen', labels: ssq_scale_labels, required: true },
-        { prompt: "Schwierigkeiten beim Fokussieren (scharf sehen)", name: 'SSQ_05_Fokussieren', labels: ssq_scale_labels, required: true },
-        { prompt: "Erhöhter Speichelfluss", name: 'SSQ_06_Speichelfluss', labels: ssq_scale_labels, required: true },
-        { prompt: "Schwitzen", name: 'SSQ_07_Schwitzen', labels: ssq_scale_labels, required: true },
-        { prompt: "Übelkeit", name: 'SSQ_08_Uebelkeit', labels: ssq_scale_labels, required: true },
-        { prompt: "Konzentrationsschwierigkeiten", name: 'SSQ_09_Konzentration', labels: ssq_scale_labels, required: true },
-        { prompt: "Kopfdruck (\"Fullness of Head\")", name: 'SSQ_10_Kopfdruck', labels: ssq_scale_labels, required: true },
-        { prompt: "Verschwommenes Sehen", name: 'SSQ_11_VerschwommenSehen', labels: ssq_scale_labels, required: true },
-        { prompt: "Schwindel (Augen offen)", name: 'SSQ_12_SchwindelOffen', labels: ssq_scale_labels, required: true },
-        { prompt: "Schwindel (Augen geschlossen)", name: 'SSQ_13_SchwindelGeschlossen', labels: ssq_scale_labels, required: true },
-        { prompt: "Vertigo (starker Schwindel/Gleichgewichtsstörung)", name: 'SSQ_14_Vertigo', labels: ssq_scale_labels, required: true },
-        { prompt: "Magen macht sich bemerkbar (Stomach awareness)", name: 'SSQ_15_MagenBemerkt', labels: ssq_scale_labels, required: true },
-        { prompt: "Aufstoßen", name: 'SSQ_16_Aufstossen', labels: ssq_scale_labels, required: true }
+        { prompt: "Allgemeines Unwohlsein", name: 'SSQ_01_AllgUnwohlsein', labels: ssq_scale_labels, required: true }, { prompt: "Ermüdung", name: 'SSQ_02_Ermuedung', labels: ssq_scale_labels, required: true }, { prompt: "Kopfschmerzen", name: 'SSQ_03_Kopfschmerzen', labels: ssq_scale_labels, required: true }, { prompt: "Angestrengte Augen", name: 'SSQ_04_AngestrengteAugen', labels: ssq_scale_labels, required: true }, { prompt: "Schwierigkeiten beim Fokussieren (scharf sehen)", name: 'SSQ_05_Fokussieren', labels: ssq_scale_labels, required: true }, { prompt: "Erhöhter Speichelfluss", name: 'SSQ_06_Speichelfluss', labels: ssq_scale_labels, required: true }, { prompt: "Schwitzen", name: 'SSQ_07_Schwitzen', labels: ssq_scale_labels, required: true }, { prompt: "Übelkeit", name: 'SSQ_08_Uebelkeit', labels: ssq_scale_labels, required: true }, { prompt: "Konzentrationsschwierigkeiten", name: 'SSQ_09_Konzentration', labels: ssq_scale_labels, required: true }, { prompt: "Kopfdruck (\"Fullness of Head\")", name: 'SSQ_10_Kopfdruck', labels: ssq_scale_labels, required: true }, { prompt: "Verschwommenes Sehen", name: 'SSQ_11_VerschwommenSehen', labels: ssq_scale_labels, required: true }, { prompt: "Schwindel (Augen offen)", name: 'SSQ_12_SchwindelOffen', labels: ssq_scale_labels, required: true }, { prompt: "Schwindel (Augen geschlossen)", name: 'SSQ_13_SchwindelGeschlossen', labels: ssq_scale_labels, required: true }, { prompt: "Vertigo (starker Schwindel/Gleichgewichtsstörung)", name: 'SSQ_14_Vertigo', labels: ssq_scale_labels, required: true }, { prompt: "Magen macht sich bemerkbar (Stomach awareness)", name: 'SSQ_15_MagenBemerkt', labels: ssq_scale_labels, required: true }, { prompt: "Aufstoßen", name: 'SSQ_16_Aufstossen', labels: ssq_scale_labels, required: true }
     ];
     const ssq_preamble_html = `<div class='survey-preamble'>Bitte geben Sie für jedes der folgenden Symptome an, wie stark Sie es <strong>momentan</strong> empfinden.<br>0 = gar nicht;   1 = etwas;   2 = mittel;   3 = stark</div>`;
 
@@ -165,27 +148,26 @@
         if (phase1_data && phase1_data.response) {
             for (const [key, value] of Object.entries(phase1_data.response)) { wide_data_object[key] = value; }
         }
-
         const pre_fitness_data = jspsych_data_collection.filter({task: 'pre_ssq_fitness_check'}).trials[0];
         if (pre_fitness_data && pre_fitness_data.response) {
-            for (const [key, value] of Object.entries(pre_fitness_data.response)) {
-                wide_data_object[`pre_fitness_${key}`] = value;
-            }
+            for (const [key, value] of Object.entries(pre_fitness_data.response)) { wide_data_object[`pre_fitness_${key}`] = value; }
         }
-
         const ssq_pre_data = jspsych_data_collection.filter({task: 'ssq_pre'}).trials[0];
         if (ssq_pre_data && ssq_pre_data.response) {
-            for (const item of ssq_items_german) {
-                wide_data_object[`pre_${item.name}`] = ssq_pre_data.response[item.name];
-            }
+            for (const item of ssq_items_german) { wide_data_object[`pre_${item.name}`] = ssq_pre_data.response[item.name];}
         }
-
         const ssq_post_data = jspsych_data_collection.filter({task: 'ssq_post'}).trials[0];
         if (ssq_post_data && ssq_post_data.response) {
-            for (const item of ssq_items_german) {
-                wide_data_object[`post_${item.name}`] = ssq_post_data.response[item.name];
+            for (const item of ssq_items_german) { wide_data_object[`post_${item.name}`] = ssq_post_data.response[item.name];}
+        }
+        // --- NEW: Plausibility Questionnaire for Wide Format ---
+        const plausibility_data = jspsych_data_collection.filter({task: 'plausibility_questionnaire'}).trials[0];
+        if (plausibility_data && plausibility_data.response) {
+            for (const item of plausibility_items_german) { // Iterate using the defined items to ensure all are captured
+                wide_data_object[item.name] = plausibility_data.response[item.name];
             }
         }
+        // --- END NEW ---
 
         const phase3_music_feedback = jspsych_data_collection.filter({task: 'phase3_music_feedback'}).trials[0];
         if (phase3_music_feedback && phase3_music_feedback.response) {
@@ -198,6 +180,14 @@
         const gold_msi_mt_trial = jspsych_data_collection.filter({task: 'gold-msi', subscale: 'MusicalTraining'}).trials[0];
         if (gold_msi_mt_trial && gold_msi_mt_trial.response) {
             for (const [key, value] of Object.entries(gold_msi_mt_trial.response)) { wide_data_object[key] = value; }
+        }
+        const gold_msi_ae_trial = jspsych_data_collection.filter({task: 'gold-msi', subscale: 'ActiveEngagement'}).trials[0];
+        if (gold_msi_ae_trial && gold_msi_ae_trial.response) {
+            for (const [key, value] of Object.entries(gold_msi_ae_trial.response)) { wide_data_object[key] = value; }
+        }
+        const additional_music_q_trial = jspsych_data_collection.filter({task: 'phase3_additional_music_questions'}).trials[0];
+        if (additional_music_q_trial && additional_music_q_trial.response) {
+            for (const [key, value] of Object.entries(additional_music_q_trial.response)) { wide_data_object[key] = value; }
         }
         const aims_trial = jspsych_data_collection.filter({task: 'aims'}).trials[0];
         if (aims_trial && aims_trial.response) {
@@ -217,32 +207,26 @@
         return wide_data_object;
     }
 
-    // --- NEUE FUNKTION: createJaspFriendlyWideData ---
     function createJaspFriendlyWideData(jspsych_data_collection) {
         const jasp_data = {};
-
-        // Helper for safe parsing and mapping
         const parseToInt = (val) => val === null || typeof val === 'undefined' || val === '' ? '' : parseInt(val, 10);
         const parseToFloat = (val) => val === null || typeof val === 'undefined' || val === '' ? '' : parseFloat(String(val).replace(',', '.'));
-
-        const yesNoMap = { "ja": 1, "nein": 0 };
+        const yesNoMap = { "ja": 1, "nein": 0, "unsicher": 99 }; // Added "unsicher" for AP_01_abs_gehoer
         const genderMap = { "maennlich": 1, "weiblich": 2, "divers": 3, "keine_angabe": 99 };
-        const frequencyMap = {
-            "nie": 0, "seltener_1m": 1, "ca_1m": 2, "mehrmals_m": 3,
-            "ca_1w": 4, "mehrmals_w": 5, "taeglich": 6
-        };
+        const frequencyMap = { "nie": 0, "seltener_1m": 1, "ca_1m": 2, "mehrmals_m": 3, "ca_1w": 4, "mehrmals_w": 5, "taeglich": 6 };
         const musicKnownMap = { "ja": 1, "nein": 0 };
-        const hedwigLikeMap = {
-            "1": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6, "7": 7,
-            "kann_nicht_beurteilen": 98 // Specific code for "kann nicht beurteilen"
-        };
+        const hedwigLikeMap = { "1":1,"2":2,"3":3,"4":4,"5":5,"6":6,"7":7, "kann_nicht_beurteilen": 98 };
         const unwohlseinMap = { "nein": 0, "ja_leicht": 1, "ja_mittel": 2, "ja_stark": 3 };
+        // --- MODIFIED --- alterBeginnMap mapping for ST_01_alter_beginn
+        const alterBeginnMap = {
+            "2-5": 1, "6-9": 2, "10-13": 3, "14-17": 4,
+            "18_oder_aelter": 5, "spiele_kein_instrument": 0
+        };
 
         jasp_data.subject_id = researcher_data.subject_id || '';
-        jasp_data.condition_between = researcher_data.condition_between || ''; // Bleibt Text: AR, VR
-        jasp_data.condition_within_group = researcher_data.condition_within_group || ''; // Bleibt Text: A, B
+        jasp_data.condition_between = researcher_data.condition_between || '';
+        jasp_data.condition_within_group = researcher_data.condition_within_group || '';
 
-        // Phase 1: Demographics & Experience
         const phase1_data = jspsych_data_collection.filter({task: 'phase1_demographics_experience'}).trials[0];
         if (phase1_data && phase1_data.response) {
             const r = phase1_data.response;
@@ -255,37 +239,36 @@
             jasp_data.P1_nutzung_vr_12m = r.P1_nutzung_vr_12m ? (frequencyMap[r.P1_nutzung_vr_12m] !== undefined ? frequencyMap[r.P1_nutzung_vr_12m] : '') : '';
             jasp_data.P1_nutzung_ar_12m = r.P1_nutzung_ar_12m ? (frequencyMap[r.P1_nutzung_ar_12m] !== undefined ? frequencyMap[r.P1_nutzung_ar_12m] : '') : '';
         }
-
-        // Pre-SSQ Fitness Check
         const pre_fitness_data = jspsych_data_collection.filter({task: 'pre_ssq_fitness_check'}).trials[0];
         if (pre_fitness_data && pre_fitness_data.response) {
             const r = pre_fitness_data.response;
             jasp_data.pre_fitness_P1_fitness_krank = r.P1_fitness_krank ? (yesNoMap[r.P1_fitness_krank] !== undefined ? yesNoMap[r.P1_fitness_krank] : '') : '';
-            jasp_data.pre_fitness_P1_krank_beschreibung = r.P1_krank_beschreibung || ''; // Text
+            jasp_data.pre_fitness_P1_krank_beschreibung = r.P1_krank_beschreibung || '';
             jasp_data.pre_fitness_P1_fitness_ueblich = r.P1_fitness_ueblich ? (yesNoMap[r.P1_fitness_ueblich] !== undefined ? yesNoMap[r.P1_fitness_ueblich] : '') : '';
-            jasp_data.pre_fitness_P1_fitness_abweichung = r.P1_fitness_abweichung || ''; // Text
+            jasp_data.pre_fitness_P1_fitness_abweichung = r.P1_fitness_abweichung || '';
             jasp_data.pre_fitness_P1_alkohol_24h = r.P1_alkohol_24h ? (yesNoMap[r.P1_alkohol_24h] !== undefined ? yesNoMap[r.P1_alkohol_24h] : '') : '';
             jasp_data.pre_fitness_P1_medikamente_aktuell = r.P1_medikamente_aktuell ? (yesNoMap[r.P1_medikamente_aktuell] !== undefined ? yesNoMap[r.P1_medikamente_aktuell] : '') : '';
-            jasp_data.pre_fitness_P1_medikamente_beschreibung = r.P1_medikamente_beschreibung || ''; // Text
+            jasp_data.pre_fitness_P1_medikamente_beschreibung = r.P1_medikamente_beschreibung || '';
         }
-
-        // SSQ Pre Daten (sind bereits 0-3 und werden vom Likert-Plugin als Zahlen gespeichert)
         const ssq_pre_data = jspsych_data_collection.filter({task: 'ssq_pre'}).trials[0];
         if (ssq_pre_data && ssq_pre_data.response) {
-            for (const item of ssq_items_german) {
-                jasp_data[`pre_${item.name}`] = ssq_pre_data.response[item.name] !== null && ssq_pre_data.response[item.name] !== undefined ? ssq_pre_data.response[item.name] : '';
-            }
+            for (const item of ssq_items_german) { jasp_data[`pre_${item.name}`] = ssq_pre_data.response[item.name] !== null && ssq_pre_data.response[item.name] !== undefined ? parseToInt(ssq_pre_data.response[item.name]) : ''; }
         }
-
-        // SSQ Post Daten (sind bereits 0-3)
         const ssq_post_data = jspsych_data_collection.filter({task: 'ssq_post'}).trials[0];
         if (ssq_post_data && ssq_post_data.response) {
-            for (const item of ssq_items_german) {
-                jasp_data[`post_${item.name}`] = ssq_post_data.response[item.name] !== null && ssq_post_data.response[item.name] !== undefined ? ssq_post_data.response[item.name] : '';
-            }
+            for (const item of ssq_items_german) { jasp_data[`post_${item.name}`] = ssq_post_data.response[item.name] !== null && ssq_post_data.response[item.name] !== undefined ? parseToInt(ssq_post_data.response[item.name]) : ''; }
         }
 
-        // Phase 3 Music Feedback
+        // --- NEW: Plausibility Questionnaire for JASP-friendly Format ---
+        const plausibility_data_jasp = jspsych_data_collection.filter({task: 'plausibility_questionnaire'}).trials[0];
+        if (plausibility_data_jasp && plausibility_data_jasp.response) {
+            for (const item of plausibility_items_german) { // Iterate using defined items
+                 const val = plausibility_data_jasp.response[item.name];
+                 jasp_data[item.name] = val !== null && val !== undefined ? parseToInt(val) : '';
+            }
+        }
+        // --- END NEW ---
+
         const phase3_music_feedback = jspsych_data_collection.filter({task: 'phase3_music_feedback'}).trials[0];
         if (phase3_music_feedback && phase3_music_feedback.response) {
             const r = phase3_music_feedback.response;
@@ -293,54 +276,49 @@
             jasp_data.P3_C2_genre_filmmusik_like = r.P3_C2_genre_filmmusik_like ? parseToInt(r.P3_C2_genre_filmmusik_like) : '';
             jasp_data.P3_C3_hedwig_like = r.P3_C3_hedwig_like ? (hedwigLikeMap[r.P3_C3_hedwig_like] !== undefined ? hedwigLikeMap[r.P3_C3_hedwig_like] : parseToInt(r.P3_C3_hedwig_like)) : '';
         }
-
-        // Gold-MSI Emotions (Likert 1-7, als Zahlen gespeichert)
         const gold_msi_em_trial = jspsych_data_collection.filter({task: 'gold-msi', subscale: 'Emotions'}).trials[0];
         if (gold_msi_em_trial && gold_msi_em_trial.response) {
-            for (const [key, value] of Object.entries(gold_msi_em_trial.response)) {
-                jasp_data[key] = value !== null && value !== undefined ? parseToInt(value) : '';
-            }
+            for (const [key, value] of Object.entries(gold_msi_em_trial.response)) { jasp_data[key] = value !== null && value !== undefined ? parseToInt(value) : ''; }
         }
-
-        // Gold-MSI Musical Training
         const gold_msi_mt_trial = jspsych_data_collection.filter({task: 'gold-msi', subscale: 'MusicalTraining'}).trials[0];
         if (gold_msi_mt_trial && gold_msi_mt_trial.response) {
             for (const [key, value] of Object.entries(gold_msi_mt_trial.response)) {
-                // MT_03 und MT_07 sind Likert 1-7
-                if (key === "MT_03" || key === "MT_07") {
+                if (key === "MT_03" || key === "MT_07") { jasp_data[key] = value !== null && value !== undefined ? parseToInt(value) : ''; }
+                else { let parsedVal = parseToFloat(value); jasp_data[key] = !isNaN(parsedVal) ? parsedVal : (value || ''); }
+            }
+        }
+        const gold_msi_ae_trial = jspsych_data_collection.filter({task: 'gold-msi', subscale: 'ActiveEngagement'}).trials[0];
+        if (gold_msi_ae_trial && gold_msi_ae_trial.response) {
+            for (const [key, value] of Object.entries(gold_msi_ae_trial.response)) {
+                if (["AE_01", "AE_02", "AE_03", "AE_05", "AE_06", "AE_07", "AE_09"].includes(key)) {
                     jasp_data[key] = value !== null && value !== undefined ? parseToInt(value) : '';
-                } else {
-                    // Andere MT Fragen haben kategoriale Antworten, die teilweise numerisch sind (z.B. "0.5")
-                    // oder Text bleiben müssen ("6-9"). JASP kann damit als Faktor umgehen.
-                    // parseToFloat versucht, es numerisch zu machen, wenn es geht.
-                    let parsedVal = parseToFloat(value);
-                    jasp_data[key] = !isNaN(parsedVal) ? parsedVal : (value || '');
+                } else { 
+                    jasp_data[key] = value || ''; // As text for categorical, or map later if needed
                 }
             }
         }
+        const additional_music_q_trial = jspsych_data_collection.filter({task: 'phase3_additional_music_questions'}).trials[0];
+        if (additional_music_q_trial && additional_music_q_trial.response) {
+            const r = additional_music_q_trial.response;
+            jasp_data.BI_01_instrument = r.BI_01_instrument || '';
+            jasp_data.ST_01_alter_beginn = r.ST_01_alter_beginn ? (alterBeginnMap[r.ST_01_alter_beginn] !== undefined ? alterBeginnMap[r.ST_01_alter_beginn] : '') : '';
+            jasp_data.AP_01_abs_gehoer = r.AP_01_abs_gehoer ? (yesNoMap[r.AP_01_abs_gehoer] !== undefined ? yesNoMap[r.AP_01_abs_gehoer] : '') : '';
+        }
 
-        // AIMS (Likert 0-4, als Zahlen gespeichert)
         const aims_trial = jspsych_data_collection.filter({task: 'aims'}).trials[0];
         if (aims_trial && aims_trial.response) {
             const original_aims_item_names = aimsItems_german_with_labels.map(item => item.name);
-            for (const itemName of original_aims_item_names) {
-                const val = aims_trial.response[itemName];
-                jasp_data[itemName] = val !== null && val !== undefined ? val : '';
-            }
+            for (const itemName of original_aims_item_names) { const val = aims_trial.response[itemName]; jasp_data[itemName] = val !== null && val !== undefined ? parseToInt(val) : ''; }
         }
-
-        // Phase 3 Tech Comfort
         const phase3_tech_comfort = jspsych_data_collection.filter({task: 'phase3_tech_comfort'}).trials[0];
         if (phase3_tech_comfort && phase3_tech_comfort.response) {
             const r = phase3_tech_comfort.response;
             jasp_data.P3_E1_headset_comfort = r.P3_E1_headset_comfort ? parseToInt(r.P3_E1_headset_comfort) : '';
             jasp_data.P3_E2_unwohlsein_symptome = r.P3_E2_unwohlsein_symptome ? (unwohlseinMap[r.P3_E2_unwohlsein_symptome] !== undefined ? unwohlseinMap[r.P3_E2_unwohlsein_symptome] : '') : '';
-            jasp_data.P3_E2a_symptome_beschreibung = r.P3_E2a_symptome_beschreibung || ''; // Text
+            jasp_data.P3_E2a_symptome_beschreibung = r.P3_E2a_symptome_beschreibung || '';
             jasp_data.P3_E3_tech_probleme = r.P3_E3_tech_probleme ? (yesNoMap[r.P3_E3_tech_probleme] !== undefined ? yesNoMap[r.P3_E3_tech_probleme] : '') : '';
-            jasp_data.P3_E3a_probleme_beschreibung = r.P3_E3a_probleme_beschreibung || ''; // Text
+            jasp_data.P3_E3a_probleme_beschreibung = r.P3_E3a_probleme_beschreibung || '';
         }
-
-        // Phase 3 Active Feedback (Likert 1-7)
         const phase3_active_feedback = jspsych_data_collection.filter({task: 'phase3_active_feedback'}).trials[0];
         if (phase3_active_feedback && phase3_active_feedback.response) {
             const r = phase3_active_feedback.response;
@@ -349,7 +327,6 @@
         }
         return jasp_data;
     }
-
 
     const researcher_input_trial = {
         type: jsPsychSurveyHtmlForm,
@@ -374,9 +351,9 @@
     };
 
     function createRadioGroup(name, questionText, options) {
-        let html = `<div class="jspsych-survey-html-form-question"><p class="question-text">${questionText}</p><div class="jspsych-survey-html-form-group">`; // Klasse angepasst
+        let html = `<div class="jspsych-survey-html-form-question"><p class="question-text">${questionText}</p><div class="jspsych-survey-html-form-group">`; 
         options.forEach(opt => {
-            html += `<label style="display:block; margin-bottom:5px;"><input type="radio" name="${name}" value="${opt.value}" required> ${opt.label}</label>`; // display:block für untereinander
+            html += `<label style="display:block; margin-bottom:5px;"><input type="radio" name="${name}" value="${opt.value}" required> ${opt.label}</label>`;
         });
         html += `</div></div>`;
         return html;
@@ -384,9 +361,9 @@
     function createLikertRadioGroup(name, questionText, options, scaleDescription) {
         let html = `<div class="jspsych-survey-html-form-question"><p class="question-text">${questionText}</p>`;
         if(scaleDescription) html += `<p style="font-size:0.9em; margin-bottom:10px;">${scaleDescription}</p>`;
-        html += `<div class="jspsych-survey-html-form-group" style="display:flex; justify-content:space-around;">`; // Flex für Nebeneinander
+        html += `<div class="jspsych-survey-html-form-group" style="display:flex; justify-content:space-around; flex-wrap: wrap;">`; 
         options.forEach(opt => {
-            html += `<label style="text-align:center; display:flex; flex-direction:column; align-items:center; margin: 0 5px;">
+            html += `<label style="text-align:center; display:flex; flex-direction:column; align-items:center; margin: 5px 10px; min-width: 30px;">
                        <span style="margin-bottom:3px; font-size:0.9em;">${opt.label}</span>
                        <input type="radio" name="${name}" value="${opt.value}" required>
                      </label>`;
@@ -482,15 +459,16 @@
                     radio.addEventListener('change', function() {
                         document.getElementById(wrapperId).style.display = (this.value === showConditionValue && this.checked) ? 'block' : 'none';
                         if (this.value !== showConditionValue && document.getElementById(textareaId)) {
-                            document.getElementById(textareaId).value = '';
+                            document.getElementById(textareaId).value = ''; // Clear textarea if condition not met
                         }
                     });
                 });
+                // Initial check
                 const initialChecked = document.querySelector(`input[name="${radioGroupName}"]:checked`);
                 if (initialChecked) {
                     document.getElementById(wrapperId).style.display = (initialChecked.value === showConditionValue) ? 'block' : 'none';
                 } else {
-                     document.getElementById(wrapperId).style.display = 'none';
+                     document.getElementById(wrapperId).style.display = 'none'; // Hide if no radio is initially checked
                 }
             }
             setupConditionalDisplay("P1_fitness_krank", "P1_krank_beschreibung_wrapper", "ja", "P1_krank_beschreibung");
@@ -548,6 +526,41 @@
         show_clickable_nav: true, button_label_next: "Weiter", data: {task: "phase3_intro"}
     };
 
+    // --- NEW: Plausibility Questionnaire Definition ---
+    const plausibility_likert_scale_labels_german = [ "1 (stimme überhaupt nicht zu)", "2", "3", "4 (neutral)", "5", "6", "7 (stimme voll und ganz zu)" ];
+    const plausibility_items_german = [
+        // Teil 1: Externe Plausibilität (EP)
+        { prompt: "Ich bin es gewohnt, dass sich Objekte (Szenarien/Visualisierungen) auf diese Weise verhalten.", name: 'PPQ_EP_01', labels: plausibility_likert_scale_labels_german, required: true },
+        { prompt: "Im Alltag erwarte ich, dass sich Objekte (Szenarien/Visualisierungen) auf diese Weise verhalten.", name: 'PPQ_EP_02', labels: plausibility_likert_scale_labels_german, required: true },
+        { prompt: "Ich habe schon einmal erlebt, dass sich Objekte (Szenarien/Visualisierungen) im echten Leben so verhalten.", name: 'PPQ_EP_03', labels: plausibility_likert_scale_labels_german, required: true },
+        { prompt: "Das Verhalten der Objekte (des Szenarios/der Visualisierung) ist für mich ungewöhnlich. (invertiert)", name: 'PPQ_EP_04_inv', labels: plausibility_likert_scale_labels_german, required: true },
+        { prompt: "Ich kenne dieses Verhalten von Objekten (des Szenarios/der Visualisierung) nicht aus dem echten Leben. (invertiert)", name: 'PPQ_EP_05_inv', labels: plausibility_likert_scale_labels_german, required: true },
+        // Teil 2: Interne Plausibilität (IP)
+        { prompt: "Ich hatte eine vorherige Erwartung, wie sich die Objekte (das Szenario/die Visualisierung) verhalten würden.", name: 'PPQ_IP_01', labels: plausibility_likert_scale_labels_german, required: true },
+        { prompt: "Ich habe erwartet, dass sich die Objekte (das Szenario/die Visualisierung) so verhalten.", name: 'PPQ_IP_02', labels: plausibility_likert_scale_labels_german, required: true },
+        { prompt: "Ich habe dieses Verhalten von Objekten (des Szenarios/der Visualisierung) schon einmal in Filmen, Spielen usw. gesehen.", name: 'PPQ_IP_03', labels: plausibility_likert_scale_labels_german, required: true },
+        { prompt: "Ich war von dem Verhalten der Objekte (des Szenarios/der Visualisierung) überrascht. (invertiert)", name: 'PPQ_IP_04_inv', labels: plausibility_likert_scale_labels_german, required: true },
+        { prompt: "Ich hatte keine Ahnung, dass sich die Objekte (das Szenario/die Visualisierung) so verhalten würden. (invertiert)", name: 'PPQ_IP_05_inv', labels: plausibility_likert_scale_labels_german, required: true },
+        { prompt: "Das Verhalten der Objekte (des Szenarios/der Visualisierung) passte zum Szenario/Kontext.", name: 'PPQ_IP_06', labels: plausibility_likert_scale_labels_german, required: true },
+        // Teil 3: Allgemeine Plausibilität (GP)
+        { prompt: "Das Verhalten der Objekte (des Szenarios/der Visualisierung) ergab Sinn.", name: 'PPQ_GP_01', labels: plausibility_likert_scale_labels_german, required: true },
+        { prompt: "Ich denke, dieses Verhalten der Objekte (des Szenarios/der Visualisierung) ist unmöglich. (invertiert)", name: 'PPQ_GP_02_inv', labels: plausibility_likert_scale_labels_german, required: true },
+    ];
+
+    const plausibility_questionnaire_trial = {
+        type: jsPsychSurveyLikert,
+        questions: plausibility_items_german,
+        randomize_question_order: false, // Usually better to keep subscales grouped
+        preamble: `<div class='survey-section-title'>Fragebogen zur Wahrgenommenen Plausibilität</div>
+                   <div class='survey-preamble'>Bitte bewerten Sie die folgenden Aussagen auf einer 7-Punkte-Likert-Skala.<br>
+                   1 = stimme überhaupt nicht zu ... 4 = neutral ... 7 = stimme voll und ganz zu</div>`,
+        button_label: 'Weiter',
+        scale_width: 700, // Adjusted for 7 points
+        data: { task: 'plausibility_questionnaire' }
+    };
+    // --- END NEW ---
+
+
     const phase3_music_feedback_trial = {
         type: jsPsychSurveyHtmlForm,
         data: { task: 'phase3_music_feedback' },
@@ -556,7 +569,7 @@
             return `
                 ${createRadioGroup("P3_C1_musik_bekannt", "Kannten Sie das Musikstück ('Hedwig's Theme'), das während des Experiments gespielt wurde, bereits vorher?", [
                     {value: "ja", label: "Ja"}, {value: "nein", label: "Nein"}
-                ])}
+                ], true)}
 
                 ${createLikertRadioGroup("P3_C2_genre_filmmusik_like", "Wie sehr mögen Sie das Genre 'Filmmusik' im Allgemeinen?", [
                     {value: "1", label: "1 (Überhaupt nicht)"}, {value: "2", label: "2"}, {value: "3", label: "3"},
@@ -587,28 +600,53 @@
                 if (radio_c1_nein && radio_c1_nein.checked) {
                     select_c3.value = 'kann_nicht_beurteilen';
                 } else if (radio_c1_ja && radio_c1_ja.checked) {
+                    // Only reset if it was previously 'kann_nicht_beurteilen'
                     if (select_c3.value === 'kann_nicht_beurteilen') {
-                         select_c3.value = ""; // Force re-selection if known
+                         select_c3.value = ""; // Prompt user to select
                     }
                 }
             }
             if (radio_c1_ja) radio_c1_ja.addEventListener('change', updateC3Status);
             if (radio_c1_nein) radio_c1_nein.addEventListener('change', updateC3Status);
-            // Initial call, in case a value is pre-selected (e.g. browser back button)
+            
+            // Initial state
             const initialChecked = document.querySelector('input[name="P3_C1_musik_bekannt"]:checked');
             if(initialChecked) updateC3Status();
         },
         button_label: "Weiter"
     };
 
-    const goldMsiItems_EM_MT = [
-        { mid: "EM_01", item: "Ich suche oft Musik aus, bei der ich eine Gänsehaut bekomme.", response_type: "likert7", negative: false, subscale: "Emotions" }, { mid: "EM_02", item: "Musikstücke rufen selten Gefühle in mir hervor.", response_type: "likert7", negative: true, subscale: "Emotions" }, { mid: "EM_03", item: "Ich suche häufig eine bestimmte Musik aus, um mich zu motivieren oder zu begeistern.", response_type: "likert7", negative: false, subscale: "Emotions" }, { mid: "EM_04", item: "Ich kann identifizieren, was das Besondere an einem bestimmten Musikstück ist.", response_type: "likert7", negative: false, subscale: "Emotions" }, { mid: "EM_05", item: "Ich bin in der Lage, über meine Gefühle, die durch Musik hervorgerufen werden, zu sprechen.", response_type: "likert7", negative: false, subscale: "Emotions" }, { mid: "EM_06", item: "Musik kann bei mir Erinnerungen an Personen und Orte hervorrufen.", response_type: "likert7", negative: false, subscale: "Emotions" },
-        { mid: "MT_01", item: "Ich habe regelmäßig und täglich ein Instrument (einschließlich Gesang) für ____ Jahre geübt.", response_type: "categorical", options: ["0", "1", "2", "3", "4-5", "6-9", "10 oder mehr"], negative: false, subscale: "MusicalTraining" }, { mid: "MT_02", item: "An dem Höhepunkt meines Interesses habe ich mein Hauptinstrument ____ Stunden pro Tag geübt.", response_type: "categorical", options: ["0", "0,5", "1", "1,5", "2", "3-4", "5 oder mehr"], negative: false, subscale: "MusicalTraining" }, { mid: "MT_03", item: "Ich bin noch nie für meine musikalischen Fähigkeiten gelobt worden.", response_type: "likert7", negative: true, subscale: "MusicalTraining" }, { mid: "MT_04", item: "Ich habe ____ Jahre Unterricht in Musiktheorie (außerhalb der Schule) erhalten.", response_type: "categorical", options: ["0", "0,5", "1", "2", "3", "4-6", "7 oder mehr"], negative: false, subscale: "MusicalTraining" }, { mid: "MT_05", item: "Ich habe ____ Jahre Musikunterricht auf einem Instrument (einschließlich Gesang) in meinem bisherigen Leben gehabt.", response_type: "categorical", options: ["0", "1", "2", "3", "4-5", "6-9", "10 oder mehr"], negative: false, subscale: "MusicalTraining" }, { mid: "MT_06", item: "Ich kann ____ verschiedene Instrumente spielen.", response_type: "categorical", options: ["0", "1", "2", "3", "4", "5", "6 oder mehr"], negative: false, subscale: "MusicalTraining" }, { mid: "MT_07", item: "Ich würde mich selbst nicht als Musiker/-in bezeichnen.", response_type: "likert7", negative: true, subscale: "MusicalTraining" }
+    const goldMsiItems_EM_MT_AE = [
+        // Emotions (EM)
+        { mid: "EM_01", item: "Ich suche oft Musik aus, bei der ich eine Gänsehaut bekomme.", response_type: "likert7", negative: false, subscale: "Emotions" },
+        { mid: "EM_02", item: "Musikstücke rufen selten Gefühle in mir hervor.", response_type: "likert7", negative: true, subscale: "Emotions" },
+        { mid: "EM_03", item: "Ich suche häufig eine bestimmte Musik aus, um mich zu motivieren oder zu begeistern.", response_type: "likert7", negative: false, subscale: "Emotions" },
+        { mid: "EM_04", item: "Ich kann identifizieren, was das Besondere an einem bestimmten Musikstück ist.", response_type: "likert7", negative: false, subscale: "Emotions" },
+        { mid: "EM_05", item: "Ich bin in der Lage, über meine Gefühle, die durch Musik hervorgerufen werden, zu sprechen.", response_type: "likert7", negative: false, subscale: "Emotions" },
+        { mid: "EM_06", item: "Musik kann bei mir Erinnerungen an Personen und Orte hervorrufen.", response_type: "likert7", negative: false, subscale: "Emotions" },
+        // Musical Training (MT)
+        { mid: "MT_01", item: "Ich habe regelmäßig und täglich ein Instrument (einschließlich Gesang) für ____ Jahre geübt.", response_type: "categorical", options: ["0", "1", "2", "3", "4-5", "6-9", "10 oder mehr"], negative: false, subscale: "MusicalTraining" },
+        { mid: "MT_02", item: "An dem Höhepunkt meines Interesses habe ich mein Hauptinstrument ____ Stunden pro Tag geübt.", response_type: "categorical", options: ["0", "0,5", "1", "1,5", "2", "3-4", "5 oder mehr"], negative: false, subscale: "MusicalTraining" },
+        { mid: "MT_03", item: "Ich bin noch nie für meine musikalischen Fähigkeiten gelobt worden.", response_type: "likert7", negative: true, subscale: "MusicalTraining" },
+        { mid: "MT_04", item: "Ich habe ____ Jahre Unterricht in Musiktheorie (außerhalb der Schule) erhalten.", response_type: "categorical", options: ["0", "0,5", "1", "2", "3", "4-6", "7 oder mehr"], negative: false, subscale: "MusicalTraining" },
+        { mid: "MT_05", item: "Ich habe ____ Jahre Musikunterricht auf einem Instrument (einschließlich Gesang) in meinem bisherigen Leben gehabt.", response_type: "categorical", options: ["0", "1", "2", "3", "4-5", "6-9", "10 oder mehr"], negative: false, subscale: "MusicalTraining" },
+        { mid: "MT_06", item: "Ich kann ____ verschiedene Instrumente spielen.", response_type: "categorical", options: ["0", "1", "2", "3", "4", "5", "6 oder mehr"], negative: false, subscale: "MusicalTraining" },
+        { mid: "MT_07", item: "Ich würde mich selbst nicht als Musiker/-in bezeichnen.", response_type: "likert7", negative: true, subscale: "MusicalTraining" },
+        // Active Engagement (AE) 
+        { mid: "AE_01", item: "Ich beschäftige mich in meiner Freizeit viel mit musikbezogenen Aktivitäten.", response_type: "likert7", negative: false, subscale: "ActiveEngagement" },
+        { mid: "AE_02", item: "Ich schreibe gerne über Musik, z. B. in Internetblogs oder Foren.", response_type: "likert7", negative: false, subscale: "ActiveEngagement" },
+        { mid: "AE_03", item: "Ich bin fasziniert von Musikstilen, mit denen ich nicht vertraut bin, und möchte mehr darüber erfahren.", response_type: "likert7", negative: false, subscale: "ActiveEngagement" },
+        { mid: "AE_04", item: "Ich habe ____ Live-Events als Zuschauer innerhalb der letzten 12 Monate besucht.", response_type: "categorical", options: ["0", "1", "2", "3", "4-6", "7-10", "11 oder mehr"], negative: false, subscale: "ActiveEngagement" },
+        { mid: "AE_05", item: "Ich lese oder suche oft im Internet nach Dingen, die mit Musik zu tun haben.", response_type: "likert7", negative: false, subscale: "ActiveEngagement" },
+        { mid: "AE_06", item: "Ich gebe nicht viel Geld meines verfügbaren Einkommens für Musik aus.", response_type: "likert7", negative: true, subscale: "ActiveEngagement" },
+        { mid: "AE_07", item: "Musik ist für mich eine Art von Sucht – ohne sie könnte ich nicht leben.", response_type: "likert7", negative: false, subscale: "ActiveEngagement" },
+        { mid: "AE_08", item: "Ich höre jeden Tag aufmerksam Musik für ____.", response_type: "categorical", options: ["0-15min", "15-30min", "30-60min", "60-90min", "2 Std", "2-3 Std", "4 Std oder mehr"], negative: false, subscale: "ActiveEngagement" },
+        { mid: "AE_09", item: "Ich halte mich auf dem Laufenden, was neue Musik angeht (z. B. neue Künstler oder Aufnahmen).", response_type: "likert7", negative: false, subscale: "ActiveEngagement" }
     ];
 
     function createGoldMsiSurveyQuestionHTML(question) {
         let html = `<span class="question-text">${question.item.replace(/____/g, '___')}</span>
-                    <div class="jspsych-survey-html-form-group" style="display:flex; flex-wrap:wrap; justify-content:space-around;">`; // Flex für Layout
+                    <div class="jspsych-survey-html-form-group" style="display:flex; flex-wrap:wrap; justify-content:space-around;">`;
         if (question.response_type === "likert7") {
             for (let i = 1; i <= 7; i++) {
                  html += `<label style="text-align:center; margin: 5px 10px; min-width: 30px;">
@@ -628,7 +666,7 @@
     }
 
     const goldMsi_instructions_trial_phase3 = {
-        type: jsPsychInstructions, pages: [ `<div class='survey-section-title'>Abschnitt D: Musikalische Vorerfahrung und Absorption</div><p style="text-align:center;">Es folgen nun zwei Fragebögen zu Ihrer allgemeinen musikalischen Erfahrung.</p>` ],
+        type: jsPsychInstructions, pages: [ `<div class='survey-section-title'>Abschnitt D: Musikalische Vorerfahrung und Absorption</div><p style="text-align:center;">Es folgen nun Fragebögen zu Ihrer allgemeinen musikalischen Erfahrung und Ihrem Erleben von Musik.</p>` ],
         show_clickable_nav: true, button_label_next: "Weiter", data: {task: "goldmsi_aims_intro_p3"}
     };
     const goldMsi_likert_preamble_html = `<div class='survey-preamble' style="text-align:center;"><strong>Gold-MSI Skala:</strong><br>1 = Stimme ganz und gar nicht zu ... 4 = Weder noch ... 7 = Stimme voll und ganz zu</div>`;
@@ -637,8 +675,33 @@
         const survey_questions_html = items.filter(q => q.subscale === subscaleName).map(q => `<div class="jspsych-survey-html-form-question">${createGoldMsiSurveyQuestionHTML(q)}</div>`).join('');
         return { type: jsPsychSurveyHtmlForm, preamble: preamble, html: survey_questions_html, button_label: "Weiter", data: { task: 'gold-msi', subscale: subscaleName } };
     }
-    const goldMsi_emotions_survey_trial = createGoldMsiSurveyTrial("Emotions", goldMsiItems_EM_MT, goldMsi_likert_preamble_html);
-    const goldMsi_training_survey_trial = createGoldMsiSurveyTrial("MusicalTraining", goldMsiItems_EM_MT, goldMsi_likert_preamble_html);
+    const goldMsi_emotions_survey_trial = createGoldMsiSurveyTrial("Emotions", goldMsiItems_EM_MT_AE, goldMsi_likert_preamble_html);
+    const goldMsi_training_survey_trial = createGoldMsiSurveyTrial("MusicalTraining", goldMsiItems_EM_MT_AE, goldMsi_likert_preamble_html);
+    const goldMsi_active_engagement_survey_trial = createGoldMsiSurveyTrial("ActiveEngagement", goldMsiItems_EM_MT_AE, goldMsi_likert_preamble_html); 
+
+    const phase3_additional_music_questions_trial = {
+        type: jsPsychSurveyHtmlForm,
+        data: { task: 'phase3_additional_music_questions' },
+        preamble: `<div class='survey-section-title'>Zusätzliche musikalische Angaben</div>`,
+        html: `
+            <div class="jspsych-survey-html-form-question">
+                <p class="question-text">Das Instrument (einschließlich Gesang), welches ich am besten spiele ist:</p>
+                <input type="text" name="BI_01_instrument" placeholder="z.B. Klavier, Gitarre, Gesang, keines" style="width: 100%; padding:8px;">
+            </div>
+            ${createRadioGroup("ST_01_alter_beginn", "Mit wie viel Jahren hast du angefangen, ein Instrument zu spielen (oder ernsthaft zu singen)?", [
+                {value: "2-5", label: "2-5 Jahre"}, {value: "6-9", label: "6-9 Jahre"},
+                {value: "10-13", label: "10-13 Jahre"}, {value: "14-17", label: "14-17 Jahre"},
+                {value: "18_oder_aelter", label: "18 Jahre oder älter"},
+                {value: "spiele_kein_instrument", label: "Ich spiele kein Instrument / singe nicht ernsthaft."}
+            ])}
+            ${createRadioGroup("AP_01_abs_gehoer", "Hast du ein absolutes Gehör? (Die Fähigkeit, einen Ton ohne Bezugston zu erkennen und zu benennen)", [
+                {value: "ja", label: "Ja"}, {value: "nein", label: "Nein"},
+                {value: "unsicher", label: "Ich bin unsicher"}
+            ])}
+        `,
+        button_label: "Weiter"
+    };
+
 
     const aims_likert_scale_labels_german = [ "Stimme überhaupt nicht zu", "Stimme nicht zu", "Neutral (weder noch)", "Stimme zu", "Stimme voll und ganz zu" ];
     const aimsItems_german_with_labels = [
@@ -679,18 +742,11 @@
                 const radios = document.querySelectorAll(`input[name="${radioGroupName}"]`);
                 const wrapper = document.getElementById(wrapperId);
                 const textarea = document.getElementById(textareaId);
-
                 function updateDisplay() {
                     let show = false;
-                    radios.forEach(radio => {
-                        if (radio.checked && showConditionValues.includes(radio.value)) {
-                            show = true;
-                        }
-                    });
+                    radios.forEach(radio => { if (radio.checked && showConditionValues.includes(radio.value)) { show = true; } });
                     wrapper.style.display = show ? 'block' : 'none';
-                    if (!show && textarea) {
-                        textarea.value = '';
-                    }
+                    if (!show && textarea) { textarea.value = ''; }
                 }
                 radios.forEach(radio => radio.addEventListener('change', updateDisplay));
                 updateDisplay(); // Initial check
@@ -718,25 +774,26 @@
         button_label: "Studie abschließen und Daten speichern"
     };
 
+    // --- ZEITSTRAHL ---
     const timeline = [];
     timeline.push(researcher_input_trial);
-
     // Phase 1
     timeline.push(phase1_instructions);
     timeline.push(phase1_demographics_experience_trial);
     timeline.push(pre_ssq_fitness_check_trial);
     timeline.push(ssq_pre_trial);
-
     // Phase 2
     timeline.push(phase2_experiment_instructions);
-
     // Phase 3
     timeline.push(ssq_post_trial);
     timeline.push(phase3_instructions);
+    timeline.push(plausibility_questionnaire_trial); // --- NEW --- Added Plausibility Questionnaire
     timeline.push(phase3_music_feedback_trial);
     timeline.push(goldMsi_instructions_trial_phase3);
     timeline.push(goldMsi_emotions_survey_trial);
     timeline.push(goldMsi_training_survey_trial);
+    timeline.push(goldMsi_active_engagement_survey_trial); 
+    timeline.push(phase3_additional_music_questions_trial); 
     timeline.push(aims_survey_trial);
     timeline.push(phase3_tech_comfort_trial);
     timeline.push(phase3_active_feedback_trial);

@@ -28,7 +28,6 @@
             display: block; /* Stellt sicher, dass jedes Label eine neue Zeile beginnt, falls im HTML so gewollt */
             margin-bottom: 8px; /* Abstand zwischen Radio-Optionen */
         }
-        /* Spezifisch für Radio-Buttons nebeneinander, falls gewünscht (nicht Standard hier) */
         .radio-horizontal label { display: inline-block; margin-bottom: 0;}
 
         .survey-preamble {
@@ -55,9 +54,12 @@
             padding: 8px; border: 1px solid #ccc; border-radius: 4px; width: 280px;
             vertical-align: middle;
         }
-        textarea { width: 100%; min-height: 80px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;}
-        .jspsych-survey-html-form- grubu { /* Für Gruppen von Radio-Buttons */
-            padding-left: 15px; /* Leichte Einrückung für Optionen */
+        textarea, input[type="text"].free-text-instrument { /* Styling für offene Textfelder */
+            width: 100%; min-height: 40px; padding: 8px; border: 1px solid #ccc;
+            border-radius: 4px; box-sizing: border-box; margin-top: 5px;
+        }
+        .jspsych-survey-html-form- grubu {
+            padding-left: 15px;
         }
     </style>
 </head>
@@ -66,13 +68,12 @@
 <script>
 
     let researcher_data = {};
-    // let known_music_piece = null; // Nicht mehr global benötigt, da Zustand im Trial gehandhabt wird
 
     function objectToCsv(dataObject) {
         const header = Object.keys(dataObject).join(',');
         const values = Object.values(dataObject).map(val => {
             if (typeof val === 'string' && (val.includes(',') || val.includes('\n') || val.includes('"'))) {
-                return `"${val.replace(/"/g, '""')}"`; // Korrekte CSV-Maskierung
+                return `"${val.replace(/"/g, '""')}"`;
             }
             return val;
         }).join(',');
@@ -124,14 +125,21 @@
         if (phase3_music_feedback && phase3_music_feedback.response) {
             for (const [key, value] of Object.entries(phase3_music_feedback.response)) { wide_data_object[key] = value; }
         }
-        const gold_msi_em_trial = jspsych_data_collection.filter({task: 'gold-msi', subscale: 'Emotions'}).trials[0];
-        if (gold_msi_em_trial && gold_msi_em_trial.response) {
-            for (const [key, value] of Object.entries(gold_msi_em_trial.response)) { wide_data_object[key] = value; }
+
+        // Gold-MSI Daten (AE, MT, EM)
+        ['ActiveEngagement', 'MusicalTraining', 'Emotions'].forEach(subscale => {
+            const trial_data = jspsych_data_collection.filter({task: 'gold-msi', subscale: subscale}).trials[0];
+            if (trial_data && trial_data.response) {
+                for (const [key, value] of Object.entries(trial_data.response)) { wide_data_object[key] = value; }
+            }
+        });
+        // Gold-MSI Zusatzfragen
+        const gold_msi_extra_trial = jspsych_data_collection.filter({task: 'gold-msi-extra-questions'}).trials[0];
+        if (gold_msi_extra_trial && gold_msi_extra_trial.response) {
+            for (const [key, value] of Object.entries(gold_msi_extra_trial.response)) { wide_data_object[key] = value; }
         }
-        const gold_msi_mt_trial = jspsych_data_collection.filter({task: 'gold-msi', subscale: 'MusicalTraining'}).trials[0];
-        if (gold_msi_mt_trial && gold_msi_mt_trial.response) {
-            for (const [key, value] of Object.entries(gold_msi_mt_trial.response)) { wide_data_object[key] = value; }
-        }
+
+
         const aims_trial = jspsych_data_collection.filter({task: 'aims'}).trials[0];
         if (aims_trial && aims_trial.response) {
             const original_aims_item_names = aimsItems_german_with_labels.map(item => item.name);
@@ -292,33 +300,62 @@
             const select_c3 = document.getElementById('P3_C3_hedwig_like');
 
             function updateC3Status() {
-                if (radio_c1_nein && radio_c1_nein.checked) {
+                const c1_nein_checked = radio_c1_nein && radio_c1_nein.checked;
+                const c1_ja_checked = radio_c1_ja && radio_c1_ja.checked;
+
+                if (c1_nein_checked) {
                     select_c3.value = 'kann_nicht_beurteilen';
-                    // select_c3.disabled = true; // Optional: Ausgrauen. Vorsicht mit 'required'.
-                } else if (radio_c1_ja && radio_c1_ja.checked) {
+                    // select_c3.disabled = true; // Wenn Sie es ausgrauen wollen
+                } else if (c1_ja_checked) {
                     // select_c3.disabled = false;
                     if (select_c3.value === 'kann_nicht_beurteilen') {
-                         select_c3.value = ""; // Zurücksetzen auf "-- Bitte wählen --"
+                         select_c3.value = "";
                     }
-                } else { // Falls keine Auswahl bei C1 (initial)
-                    // select_c3.disabled = false; // Standardmäßig aktiv lassen
+                } else { // Initialer Zustand oder wenn keine C1-Antwort
+                    // select_c3.disabled = false;
                 }
             }
 
             if (radio_c1_ja) radio_c1_ja.addEventListener('change', updateC3Status);
             if (radio_c1_nein) radio_c1_nein.addEventListener('change', updateC3Status);
-            updateC3Status(); // Initialer Status beim Laden
+            updateC3Status();
         },
         button_label: "Weiter"
     };
 
-    const goldMsiItems_EM_MT = [
-        { mid: "EM_01", item: "Ich suche oft Musik aus, bei der ich eine Gänsehaut bekomme.", response_type: "likert7", negative: false, subscale: "Emotions" }, { mid: "EM_02", item: "Musikstücke rufen selten Gefühle in mir hervor.", response_type: "likert7", negative: true, subscale: "Emotions" }, { mid: "EM_03", item: "Ich suche häufig eine bestimmte Musik aus, um mich zu motivieren oder zu begeistern.", response_type: "likert7", negative: false, subscale: "Emotions" }, { mid: "EM_04", item: "Ich kann identifizieren, was das Besondere an einem bestimmten Musikstück ist.", response_type: "likert7", negative: false, subscale: "Emotions" }, { mid: "EM_05", item: "Ich bin in der Lage, über meine Gefühle, die durch Musik hervorgerufen werden, zu sprechen.", response_type: "likert7", negative: false, subscale: "Emotions" }, { mid: "EM_06", item: "Musik kann bei mir Erinnerungen an Personen und Orte hervorrufen.", response_type: "likert7", negative: false, subscale: "Emotions" },
-        { mid: "MT_01", item: "Ich habe regelmäßig und täglich ein Instrument (einschließlich Gesang) für ____ Jahre geübt.", response_type: "categorical", options: ["0", "1", "2", "3", "4-5", "6-9", "10 oder mehr"], negative: false, subscale: "MusicalTraining" }, { mid: "MT_02", item: "An dem Höhepunkt meines Interesses habe ich mein Hauptinstrument ____ Stunden pro Tag geübt.", response_type: "categorical", options: ["0", "0,5", "1", "1,5", "2", "3-4", "5 oder mehr"], negative: false, subscale: "MusicalTraining" }, { mid: "MT_03", item: "Ich bin noch nie für meine musikalischen Fähigkeiten gelobt worden.", response_type: "likert7", negative: true, subscale: "MusicalTraining" }, { mid: "MT_04", item: "Ich habe ____ Jahre Unterricht in Musiktheorie (außerhalb der Schule) erhalten.", response_type: "categorical", options: ["0", "0,5", "1", "2", "3", "4-6", "7 oder mehr"], negative: false, subscale: "MusicalTraining" }, { mid: "MT_05", item: "Ich habe ____ Jahre Musikunterricht auf einem Instrument (einschließlich Gesang) in meinem bisherigen Leben gehabt.", response_type: "categorical", options: ["0", "1", "2", "3", "4-5", "6-9", "10 oder mehr"], negative: false, subscale: "MusicalTraining" }, { mid: "MT_06", item: "Ich kann ____ verschiedene Instrumente spielen.", response_type: "categorical", options: ["0", "1", "2", "3", "4", "5", "6 oder mehr"], negative: false, subscale: "MusicalTraining" }, { mid: "MT_07", item: "Ich würde mich selbst nicht als Musiker/-in bezeichnen.", response_type: "likert7", negative: true, subscale: "MusicalTraining" }
+    // --- Gold-MSI Items (AE, MT, EM) ---
+    const goldMsiItems_All = [
+        // Active Engagement (AE)
+        { mid: "AE_01", item: "Ich beschäftige mich in meiner Freizeit viel mit musikbezogenen Aktivitäten.", response_type: "likert7", negative: false, subscale: "ActiveEngagement" },
+        { mid: "AE_02", item: "Ich schreibe gerne über Musik, z. B. in Internetblogs oder Foren.", response_type: "likert7", negative: false, subscale: "ActiveEngagement" },
+        { mid: "AE_03", item: "Ich bin fasziniert von Musikstilen, mit denen ich nicht vertraut bin, und möchte mehr darüber erfahren.", response_type: "likert7", negative: false, subscale: "ActiveEngagement" },
+        { mid: "AE_04", item: "Ich habe ____ Live-Events als Zuschauer innerhalb der letzten 12 Monate besucht.", response_type: "categorical", options: ["0", "1", "2", "3", "4-6", "7-10", "11 oder mehr"], negative: false, subscale: "ActiveEngagement" },
+        { mid: "AE_05", item: "Ich lese oder suche oft im Internet nach Dingen, die mit Musik zu tun haben.", response_type: "likert7", negative: false, subscale: "ActiveEngagement" },
+        { mid: "AE_06", item: "Ich gebe nicht viel Geld meines verfügbaren Einkommens für Musik aus.", response_type: "likert7", negative: true, subscale: "ActiveEngagement" },
+        { mid: "AE_07", item: "Musik ist für mich eine Art von Sucht – ohne sie könnte ich nicht leben.", response_type: "likert7", negative: false, subscale: "ActiveEngagement" },
+        { mid: "AE_08", item: "Ich höre jeden Tag aufmerksam Musik für ____.", response_type: "categorical", options: ["0-15min", "15-30min", "30-60min", "60-90min", "2 Std", "2-3 Std", "4 Std oder mehr"], negative: false, subscale: "ActiveEngagement" },
+        { mid: "AE_09", item: "Ich halte mich auf dem Laufenden, was neue Musik angeht (z. B. neue Künstler oder Aufnahmen).", response_type: "likert7", negative: false, subscale: "ActiveEngagement" },
+
+        // Musical Training (MT)
+        { mid: "MT_01", item: "Ich habe regelmäßig und täglich ein Instrument (einschließlich Gesang) für ____ Jahre geübt.", response_type: "categorical", options: ["0", "1", "2", "3", "4-5", "6-9", "10 oder mehr"], negative: false, subscale: "MusicalTraining" },
+        { mid: "MT_02", item: "An dem Höhepunkt meines Interesses habe ich mein Hauptinstrument ____ Stunden pro Tag geübt.", response_type: "categorical", options: ["0", "0,5", "1", "1,5", "2", "3-4", "5 oder mehr"], negative: false, subscale: "MusicalTraining" },
+        { mid: "MT_03", item: "Ich bin noch nie für meine musikalischen Fähigkeiten gelobt worden.", response_type: "likert7", negative: true, subscale: "MusicalTraining" },
+        { mid: "MT_04", item: "Ich habe ____ Jahre Unterricht in Musiktheorie (außerhalb der Schule) erhalten.", response_type: "categorical", options: ["0", "0,5", "1", "2", "3", "4-6", "7 oder mehr"], negative: false, subscale: "MusicalTraining" },
+        { mid: "MT_05", item: "Ich habe ____ Jahre Musikunterricht auf einem Instrument (einschließlich Gesang) in meinem bisherigen Leben gehabt.", response_type: "categorical", options: ["0", "1", "2", "3", "4-5", "6-9", "10 oder mehr"], negative: false, subscale: "MusicalTraining" },
+        { mid: "MT_06", item: "Ich kann ____ verschiedene Instrumente spielen.", response_type: "categorical", options: ["0", "1", "2", "3", "4", "5", "6 oder mehr"], negative: false, subscale: "MusicalTraining" },
+        { mid: "MT_07", item: "Ich würde mich selbst nicht als Musiker/-in bezeichnen.", response_type: "likert7", negative: true, subscale: "MusicalTraining" },
+
+        // Emotions (EM)
+        { mid: "EM_01", item: "Ich suche oft Musik aus, bei der ich eine Gänsehaut bekomme.", response_type: "likert7", negative: false, subscale: "Emotions" },
+        { mid: "EM_02", item: "Musikstücke rufen selten Gefühle in mir hervor.", response_type: "likert7", negative: true, subscale: "Emotions" },
+        { mid: "EM_03", item: "Ich suche häufig eine bestimmte Musik aus, um mich zu motivieren oder zu begeistern.", response_type: "likert7", negative: false, subscale: "Emotions" },
+        { mid: "EM_04", item: "Ich kann identifizieren, was das Besondere an einem bestimmten Musikstück ist.", response_type: "likert7", negative: false, subscale: "Emotions" },
+        { mid: "EM_05", item: "Ich bin in der Lage, über meine Gefühle, die durch Musik hervorgerufen werden, zu sprechen.", response_type: "likert7", negative: false, subscale: "Emotions" },
+        { mid: "EM_06", item: "Musik kann bei mir Erinnerungen an Personen und Orte hervorrufen.", response_type: "likert7", negative: false, subscale: "Emotions" },
     ];
 
     function createGoldMsiSurveyQuestionHTML(question) {
-        let html = `<span class="question-text">${question.item.replace(/____/g, '___')}</span><div class="jspsych-survey-html-form- grubu">`; // Verwende die neue Klasse
+        let html = `<span class="question-text">${question.item.replace(/____/g, '___')}</span><div class="jspsych-survey-html-form- grubu">`;
         if (question.response_type === "likert7") {
             for (let i = 1; i <= 7; i++) {
                 html += `<label><input type="radio" name="${question.mid}" value="${i}" required> ${i}</label>`;
@@ -332,7 +369,7 @@
     }
 
     const goldMsi_instructions_trial_phase3 = {
-        type: jsPsychInstructions, pages: [ `<div class='survey-section-title'>Abschnitt D: Musikalische Vorerfahrung und Absorption</div><p style="text-align:center;">Es folgen nun zwei Fragebögen zu Ihrer allgemeinen musikalischen Erfahrung.</p>` ],
+        type: jsPsychInstructions, pages: [ `<div class='survey-section-title'>Abschnitt D: Musikalische Vorerfahrung und Absorption</div><p style="text-align:center;">Es folgen nun Fragebögen zu Ihrer allgemeinen musikalischen Erfahrung.</p>` ],
         show_clickable_nav: true, button_label_next: "Weiter", data: {task: "goldmsi_aims_intro_p3"}
     };
     const goldMsi_likert_preamble_html = `<div class='survey-preamble'><strong>Gold-MSI Skala:</strong><br>1 = Stimme ganz und gar nicht zu; 2 = Stimme nicht zu; 3 = Stimme eher nicht zu; 4 = Weder noch; 5 = Stimme eher zu; 6 = Stimme zu; 7 = Stimme voll und ganz zu</div>`;
@@ -341,8 +378,32 @@
         const survey_questions_html = items.filter(q => q.subscale === subscaleName).map(q => `<div class="jspsych-survey-html-form-question">${createGoldMsiSurveyQuestionHTML(q)}</div>`).join('');
         return { type: jsPsychSurveyHtmlForm, preamble: preamble, html: survey_questions_html, button_label: "Weiter", data: { task: 'gold-msi', subscale: subscaleName } };
     }
-    const goldMsi_emotions_survey_trial = createGoldMsiSurveyTrial("Emotions", goldMsiItems_EM_MT, goldMsi_likert_preamble_html);
-    const goldMsi_training_survey_trial = createGoldMsiSurveyTrial("MusicalTraining", goldMsiItems_EM_MT, goldMsi_likert_preamble_html);
+    const goldMsi_ae_survey_trial = createGoldMsiSurveyTrial("ActiveEngagement", goldMsiItems_All, goldMsi_likert_preamble_html);
+    const goldMsi_mt_survey_trial = createGoldMsiSurveyTrial("MusicalTraining", goldMsiItems_All, goldMsi_likert_preamble_html);
+    const goldMsi_emotions_survey_trial = createGoldMsiSurveyTrial("Emotions", goldMsiItems_All, goldMsi_likert_preamble_html);
+
+    const goldMsi_extra_questions_trial = {
+        type: jsPsychSurveyHtmlForm,
+        data: { task: 'gold-msi-extra-questions' },
+        preamble: `<div class='survey-preamble'><strong>Zusätzliche musikalische Angaben:</strong></div>`,
+        html: `
+            <div class="jspsych-survey-html-form-question">
+                <p class="question-text">Das Instrument (einschließlich Gesang), welches ich am besten spiele ist:</p>
+                <input type="text" name="BI_01_best_instrument" class="free-text-instrument" placeholder="z.B. Klavier, Gitarre, Gesang...">
+            </div>
+            ${createRadioGroup("ST_01_start_age", "Mit wie viel Jahren hast du angefangen, ein Instrument zu spielen?", [
+                {value: "2-5", label: "2 - 5 Jahre"}, {value: "6-9", label: "6 - 9 Jahre"},
+                {value: "10-13", label: "10 - 13 Jahre"}, {value: "14-17", label: "14 - 17 Jahre"},
+                {value: "18-19", label: "18 - 19 Jahre"}, {value: "ueber_19", label: "Älter als 19 Jahre"},
+                {value: "spiele_kein_instrument", label: "Ich spiele kein Instrument"}
+            ])}
+            ${createRadioGroup("AP_01_absolute_pitch", "Hast du ein absolutes Gehör? (Ein absolutes Gehör ist die Fähigkeit, einen Ton in Isolation ohne Bezugston zu erkennen und zu benennen, z.B. in der Lage zu sein, ein Fis zu erkennen, wenn jemand ein Fis auf dem Klavier spielt.)", [
+                {value: "ja", label: "Ja"}, {value: "nein", label: "Nein"},
+                {value: "unsicher", label: "Unsicher / Weiß nicht"}
+            ])}
+        `,
+        button_label: "Weiter zum nächsten Fragebogen"
+    };
 
     const aims_likert_scale_labels_german = [ "Stimme überhaupt nicht zu", "Stimme nicht zu", "Neutral (weder noch)", "Stimme zu", "Stimme voll und ganz zu" ];
     const aimsItems_german_with_labels = [
@@ -382,16 +443,15 @@
             document.querySelectorAll('input[name="P3_E2_unwohlsein_symptome"]').forEach(radio => {
                 radio.addEventListener('change', function() {
                     document.getElementById('P3_E2a_symptome_beschreibung_wrapper').style.display = (this.value !== 'nein' && this.checked) ? 'block' : 'none';
-                    if (this.value === 'nein') { document.getElementById('P3_E2a_symptome_beschreibung').value = ''; } // Feld leeren
+                    if (this.value === 'nein') { document.getElementById('P3_E2a_symptome_beschreibung').value = ''; }
                 });
             });
             document.querySelectorAll('input[name="P3_E3_tech_probleme"]').forEach(radio => {
                 radio.addEventListener('change', function() {
                     document.getElementById('P3_E3a_probleme_beschreibung_wrapper').style.display = (this.value === 'ja' && this.checked) ? 'block' : 'none';
-                    if (this.value === 'nein') { document.getElementById('P3_E3a_probleme_beschreibung').value = ''; } // Feld leeren
+                    if (this.value === 'nein') { document.getElementById('P3_E3a_probleme_beschreibung').value = ''; }
                 });
             });
-            // Initiales Ausblenden sicherstellen
             const initialE2Checked = document.querySelector('input[name="P3_E2_unwohlsein_symptome"]:checked');
             document.getElementById('P3_E2a_symptome_beschreibung_wrapper').style.display = (initialE2Checked && initialE2Checked.value !== 'nein') ? 'block' : 'none';
             const initialE3Checked = document.querySelector('input[name="P3_E3_tech_probleme"]:checked');
@@ -417,6 +477,7 @@
         button_label: "Studie abschließen und Daten speichern"
     };
 
+    // --- ZEITSTRAHL ---
     const timeline = [];
     timeline.push(researcher_input_trial);
     timeline.push(phase1_instructions);
@@ -425,8 +486,10 @@
     timeline.push(phase3_instructions);
     timeline.push(phase3_music_feedback_trial);
     timeline.push(goldMsi_instructions_trial_phase3);
+    timeline.push(goldMsi_ae_survey_trial);
+    timeline.push(goldMsi_mt_survey_trial);
     timeline.push(goldMsi_emotions_survey_trial);
-    timeline.push(goldMsi_training_survey_trial);
+    timeline.push(goldMsi_extra_questions_trial);
     timeline.push(aims_survey_trial);
     timeline.push(phase3_tech_comfort_trial);
     timeline.push(phase3_active_feedback_trial);
