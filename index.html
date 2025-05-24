@@ -126,8 +126,8 @@
             for (const [key, value] of Object.entries(phase3_music_feedback.response)) { wide_data_object[key] = value; }
         }
 
-        // Gold-MSI Daten (AE, MT, EM)
-        ['ActiveEngagement', 'MusicalTraining', 'Emotions'].forEach(subscale => {
+        // Gold-MSI Daten (AE, MT, EM, PA) - HINZUGEFÜGT 'PerceptualAbilities'
+        ['ActiveEngagement', 'MusicalTraining', 'Emotions', 'PerceptualAbilities'].forEach(subscale => {
             const trial_data = jspsych_data_collection.filter({task: 'gold-msi', subscale: subscale}).trials[0];
             if (trial_data && trial_data.response) {
                 for (const [key, value] of Object.entries(trial_data.response)) { wide_data_object[key] = value; }
@@ -352,6 +352,17 @@
         { mid: "EM_04", item: "Ich kann identifizieren, was das Besondere an einem bestimmten Musikstück ist.", response_type: "likert7", negative: false, subscale: "Emotions" },
         { mid: "EM_05", item: "Ich bin in der Lage, über meine Gefühle, die durch Musik hervorgerufen werden, zu sprechen.", response_type: "likert7", negative: false, subscale: "Emotions" },
         { mid: "EM_06", item: "Musik kann bei mir Erinnerungen an Personen und Orte hervorrufen.", response_type: "likert7", negative: false, subscale: "Emotions" },
+
+        // Perceptual Abilities (PA) -- NEUE SUBSCALE
+        { mid: "PA_01", item: "Ich kann beurteilen, ob jemand gut singt oder nicht.", response_type: "likert7", negative: false, subscale: "PerceptualAbilities" },
+        { mid: "PA_02", item: "Meistens weiß ich, ob ich ein Lied zum ersten Mal höre.", response_type: "likert7", negative: false, subscale: "PerceptualAbilities" },
+        { mid: "PA_03", item: "Ich finde es schwierig Fehler festzustellen, die ein Sänger macht, selbst wenn ich das Lied kenne.", response_type: "likert7", negative: true, subscale: "PerceptualAbilities" },
+        { mid: "PA_04", item: "Ich kann zwei Interpretationen oder Versionen desselben Musikstücks miteinander vergleichen und über die Unterschiede diskutieren.", response_type: "likert7", negative: false, subscale: "PerceptualAbilities" },
+        { mid: "PA_05", item: "Es fällt mir schwer, ein bekanntes Lied zu erkennen, wenn es auf eine andere Weise oder von einem anderen Interpreten gespielt oder gesungen wird.", response_type: "likert7", negative: true, subscale: "PerceptualAbilities" },
+        { mid: "PA_06", item: "Ich kann beurteilen, ob jemand nicht im Rhythmus mit der Musik singt oder spielt.", response_type: "likert7", negative: false, subscale: "PerceptualAbilities" },
+        { mid: "PA_07", item: "Ich kann beurteilen, ob jemand falsch oder richtig singt oder spielt.", response_type: "likert7", negative: false, subscale: "PerceptualAbilities" },
+        { mid: "PA_08", item: "Wenn ich singe, habe ich keine Ahnung, ob ich richtig oder falsch singe.", response_type: "likert7", negative: true, subscale: "PerceptualAbilities" },
+        { mid: "PA_09", item: "Wenn ich ein Musikstück höre, kann ich normalerweise die Stilrichtung erkennen.", response_type: "likert7", negative: false, subscale: "PerceptualAbilities" },
     ];
 
     function createGoldMsiSurveyQuestionHTML(question) {
@@ -381,6 +392,8 @@
     const goldMsi_ae_survey_trial = createGoldMsiSurveyTrial("ActiveEngagement", goldMsiItems_All, goldMsi_likert_preamble_html);
     const goldMsi_mt_survey_trial = createGoldMsiSurveyTrial("MusicalTraining", goldMsiItems_All, goldMsi_likert_preamble_html);
     const goldMsi_emotions_survey_trial = createGoldMsiSurveyTrial("Emotions", goldMsiItems_All, goldMsi_likert_preamble_html);
+    // NEUER TRIAL HINZUGEFÜGT
+    const goldMsi_pa_survey_trial = createGoldMsiSurveyTrial("PerceptualAbilities", goldMsiItems_All, goldMsi_likert_preamble_html);
 
     const goldMsi_extra_questions_trial = {
         type: jsPsychSurveyHtmlForm,
@@ -489,6 +502,7 @@
     timeline.push(goldMsi_ae_survey_trial);
     timeline.push(goldMsi_mt_survey_trial);
     timeline.push(goldMsi_emotions_survey_trial);
+    timeline.push(goldMsi_pa_survey_trial); // NEUE SUBSCALE HIER HINZUGEFÜGT
     timeline.push(goldMsi_extra_questions_trial);
     timeline.push(aims_survey_trial);
     timeline.push(phase3_tech_comfort_trial);
