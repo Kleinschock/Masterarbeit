@@ -57,7 +57,7 @@ void UInteractionLoggerComponent::InitializeLogging(const FString& InParticipant
 
     // Construct file path
     FString SaveDirectory = FPaths::ProjectSavedDir() + TEXT("InteractionLogs/");
-    FString FileName = FString::Printf(TEXT("InteractionLog_P%s_S%s.log"), *ParticipantID, *SessionID); // Use .log or .jsonl extension
+    FString FileName = FString::Printf(TEXT("InteractionLog_VP%s_S%s.log"), *ParticipantID, *SessionID); // Use .log or .jsonl extension
     LogFilePath = FPaths::ConvertRelativePathToFull(SaveDirectory + FileName);
 
     // Ensure directory exists

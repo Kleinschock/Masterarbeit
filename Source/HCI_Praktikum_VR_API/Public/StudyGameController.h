@@ -7,7 +7,11 @@
 #include "Components/WidgetComponent.h"
 #include "VisualizationControllable.h" // Include interface
 #include "GameFramework/PlayerController.h" // Include PlayerController
+
+#include "MovementLoggerComponent.h" 
 #include "StudyGameController.generated.h"
+
+
 
 // Forward Declarations
 class UUserWidget;
@@ -223,10 +227,16 @@ private:
 	FTimerHandle VisualizationTimerHandle;
 	FTimerHandle FadeOutTimerHandle;
 	FTimerHandle TutorialHoldTimerHandle;
-
+	
 	// References
 	UPROPERTY() TArray<TScriptInterface<IVisualizationControllable>> VisualizationTargets;
-	TWeakObjectPtr<UInteractionLoggerComponent> LoggerComponentRef;
+	TWeakObjectPtr<UInteractionLoggerComponent> LoggerComponentRef; // Bereits vorhanden
+
+	// *** ADDED FOR MOVEMENT LOGGER ***
+	TWeakObjectPtr<UMovementLoggerComponent> MovementLoggerComponentRef;
+	void InitializeMovementLogger();
+	void StartMovementLoggingForCurrentPhase();
+	void StopMovementLoggingForCurrentPhase();
 
 	// Study Flow Helpers
 	void EndVisualizationPhase();

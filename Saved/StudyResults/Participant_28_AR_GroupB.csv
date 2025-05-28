@@ -1,0 +1,4 @@
+Participant_ID,Between_Condition,Group_Type,Condition_Order,Condition_Name,Valence,Arousal,Dominance,Presence,GEMS_1,GEMS_2,GEMS_3,GEMS_4,GEMS_5,GEMS_6,GEMS_7,GEMS_8,GEMS_9
+28,AR,B,1,Control_Condition,6,6,5,8,4,5,2,2,3,1,5,2,4
+28,AR,B,2,With_Interaction,7,7,8,10,4,4,3,4,3,1,4,2,4
+28,AR,B,3,No_Interaction,7,9,9,10,3,5,4,4,4,2,4,2,5

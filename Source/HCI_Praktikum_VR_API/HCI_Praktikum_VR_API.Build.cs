@@ -18,14 +18,15 @@ public class HCI_Praktikum_VR_API : ModuleRules
             "Engine",
             "InputCore",
             "XRBase",
-            "HeadMountedDisplay", // <-- Keep it here
+            "HeadMountedDisplay",
             "Niagara",
             "UMG",
             "AudioAnalysisTools",
             "RuntimeAudioImporter",
             "Json",
             "JsonUtilities",
-            "SlateCore"
+            "SlateCore",
+            "InputDevice" // <--- HIER HINZUGEFÜGT
         });
 
 
