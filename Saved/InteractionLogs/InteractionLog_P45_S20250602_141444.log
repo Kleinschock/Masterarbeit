@@ -1,0 +1,6600 @@
+{
+	"timestampISO8601": "2025-06-02T14:15:06.974Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (Introduction)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:15:06.974Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (Introduction)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:15:07.224Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.250330600887537,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (Introduction)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:15:07.224Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.25017299875617027,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (Introduction)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:18.324Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:18.324Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:21.614Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 3.2907335013151169,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:21.614Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 3.2907002009451389,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:22.906Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:22.906Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:23.753Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.8471715971827507,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:23.753Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.84716550260782242,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:27.059Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:27.059Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:29.558Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 2.4998528026044369,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:29.559Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 2.4998736977577209,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:31.099Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:31.099Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:31.918Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.81931380182504654,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:31.918Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.81930489838123322,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:32.293Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:32.293Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:32.862Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.56908340007066727,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:32.863Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.56907499954104424,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:36.501Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:36.502Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:37.432Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.93037040159106255,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:37.432Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.93033549934625626,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:41.502Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:41.502Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:43.153Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 1.651622299104929,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:43.154Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 1.6516484022140503,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:43.834Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:43.834Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:44.014Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.18029779940843582,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:16:44.014Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.18030310049653053,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (SAM Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:17:13.371Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (Presence Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:17:13.372Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (Presence Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:17:16.482Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 3.110733900219202,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (Presence Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:17:16.482Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 3.1107457019388676,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (Presence Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:17:23.425Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (Presence Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:17:23.425Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (Presence Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:17:23.606Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.18030939996242523,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (Presence Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:17:23.606Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.18029500171542168,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (Presence Explanation)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:17:31.410Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (Ending)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:17:31.410Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (Ending)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:17:31.549Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.13877120241522789,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (Ending)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:17:31.549Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.13876060023903847,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "General Tutorial",
+	"appState": "General Tutorial (Ending)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:17:43.963Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Briefing Condition"
+}
+{
+	"timestampISO8601": "2025-06-02T14:17:43.963Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Briefing Condition"
+}
+{
+	"timestampISO8601": "2025-06-02T14:17:44.171Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.20816649869084358,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Briefing Condition"
+}
+{
+	"timestampISO8601": "2025-06-02T14:17:44.172Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.20815420150756836,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Briefing Condition"
+}
+{
+	"timestampISO8601": "2025-06-02T14:18:06.097Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Preparation Phase"
+}
+{
+	"timestampISO8601": "2025-06-02T14:18:06.098Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Preparation Phase"
+}
+{
+	"timestampISO8601": "2025-06-02T14:18:06.305Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.208136897534132,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Preparation Phase"
+}
+{
+	"timestampISO8601": "2025-06-02T14:18:06.305Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.20813840255141258,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Preparation Phase"
+}
+{
+	"timestampISO8601": "2025-06-02T14:21:08.490Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:21:08.491Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:21:11.225Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 2.7355458028614521,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:21:11.226Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 2.7355473004281521,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:21:17.503Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:21:17.503Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:21:19.641Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 2.1382493004202843,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:21:19.641Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 2.1382451988756657,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:21:24.168Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:21:24.169Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:21:30.876Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 6.7073034010827541,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:21:30.876Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 6.7072911001741886,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:21:39.014Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:21:39.014Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:21:40.097Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 1.0830673016607761,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:21:40.097Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 1.0830514989793301,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:21:50.858Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:21:50.858Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:21:51.095Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.23625560104846954,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:21:51.096Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.23625949770212173,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:22:23.062Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:22:23.062Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:22:25.409Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 2.346968300640583,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:22:25.410Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 2.3469526991248131,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:22:31.283Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:22:31.283Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:22:32.185Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.90258150175213814,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:22:32.186Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.90263189747929573,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:22:37.533Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:22:37.533Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:22:40.907Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 3.3744029030203819,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:22:40.907Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 3.3744069002568722,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:22:43.989Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:22:43.990Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:22:46.253Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 2.2633432969450951,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:22:46.253Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 2.2633481025695801,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:22:58.099Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:22:58.099Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:22:58.987Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.88865320011973381,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:22:58.987Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.88861420005559921,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:04.862Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:04.862Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:08.055Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 3.1937933005392551,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:08.056Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 3.193792000412941,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:08.875Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:08.875Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:09.583Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.70786270126700401,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:09.583Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.7078687995672226,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:16.818Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:16.818Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:17.012Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.19442719966173172,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:17.012Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.19441229850053787,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:38.578Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:38.579Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:39.912Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 1.333219800144434,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:39.912Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 1.3332067020237446,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:42.481Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:42.481Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:43.564Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 1.0827577002346516,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:43.564Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 1.0827665999531746,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:47.981Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:47.981Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:49.841Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 1.860911101102829,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:49.841Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 1.8609155006706715,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:51.257Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:51.257Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:52.909Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 1.6521898023784161,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:52.910Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 1.6521969996392727,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:54.618Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:54.618Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:56.104Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 1.4860328994691372,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:56.105Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 1.4860397987067699,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:58.771Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:58.771Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:59.922Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 1.152411300688982,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:23:59.923Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 1.1524217985570431,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:03.895Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:03.895Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:04.103Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.20815259963274002,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:04.103Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.20814789831638336,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:09.422Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:09.422Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:12.893Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 3.471586100757122,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:12.894Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 3.4715633988380432,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:19.421Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:19.421Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:20.574Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 1.1525512970983982,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:20.574Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 1.1525589004158974,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:21.129Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:21.129Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:22.073Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.944132000207901,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:22.073Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.94415020197629929,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:23.364Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:23.364Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:23.767Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.40282649919390678,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:23.767Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.40281739830970764,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:25.114Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:25.114Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:25.629Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.51394980028271675,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:25.629Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.51393010094761848,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:26.378Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:26.378Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:26.934Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.55542710050940514,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:26.934Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.55545010045170784,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:28.129Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:28.129Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:28.239Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.11097049713134766,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:28.239Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.11095960065722466,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Control Condition",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:36.085Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "Briefing Condition"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:36.085Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "Briefing Condition"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:36.293Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.20806939899921417,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "Briefing Condition"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:36.294Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.20806640014052391,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "Briefing Condition"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:41.708Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "Preparation Phase"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:41.709Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "Preparation Phase"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:41.944Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.23612650111317635,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "Preparation Phase"
+}
+{
+	"timestampISO8601": "2025-06-02T14:24:41.945Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.23612070083618164,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "Preparation Phase"
+}
+{
+	"timestampISO8601": "2025-06-02T14:27:37.850Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:27:37.850Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:27:38.892Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 1.0414424017071724,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:27:38.892Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 1.0414064005017281,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:27:39.420Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:27:39.420Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:27:40.461Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 1.0414269007742405,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:27:40.462Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 1.0414640009403229,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:27:41.780Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:27:41.780Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:27:47.710Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 5.9294424019753933,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:27:47.710Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 5.929450299590826,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:27:50.584Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:27:50.584Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:27:51.321Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.73629910126328468,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:27:51.321Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.73630079999566078,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:27:53.987Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:27:53.987Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:27:57.889Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 3.9024957977235317,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:27:57.889Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 3.9024924002587795,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:06.291Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:06.291Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:07.971Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 1.6802950985729694,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:07.971Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 1.6802750006318092,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:12.832Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:12.832Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:12.998Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.16677550226449966,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:12.999Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.16678709909319878,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:26.398Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:26.398Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:27.245Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.84720749780535698,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:27.245Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.8471698984503746,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:28.162Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:28.163Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:30.578Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 2.4160593003034592,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:30.578Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 2.4160670004785061,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:36.063Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:36.064Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:36.994Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.93038750067353249,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:36.995Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.93037359789013863,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:39.660Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:39.660Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:40.466Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.80554300174117088,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:40.466Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.80553890019655228,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:41.327Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:41.327Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:42.633Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 1.3054689988493919,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:42.633Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 1.3054728992283344,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:45.146Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:45.146Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:45.798Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.65276259928941727,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:45.799Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.65274890139698982,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:59.491Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:28:59.491Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:00.365Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.87491250038146973,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:00.366Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.87494609877467155,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:01.129Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:01.129Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:01.810Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.68051309883594513,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:01.810Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.68052539974451065,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:13.905Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:13.905Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:14.739Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.83312429860234261,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:14.739Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.83311449736356735,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:18.197Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:18.197Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:18.391Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.19427920132875443,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:18.391Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.19426289945840836,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:29.084Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:29.084Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:29.931Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.8471946008503437,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:29.931Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.84717340022325516,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:31.889Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:31.889Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:32.916Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 1.0274774022400379,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:32.917Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 1.0274653993546963,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:33.722Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:33.722Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:34.583Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.86094110086560249,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:34.583Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.86094160005450249,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:36.013Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:36.013Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:36.694Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.68067900091409683,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:36.694Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.68066149950027466,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:38.541Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:38.541Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:43.040Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 4.4994035996496677,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:43.041Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 4.4994032979011536,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:47.789Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:47.790Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:47.970Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.18033159896731377,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:47.970Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.18031710013747215,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:51.664Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:51.664Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:54.719Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 3.0552670992910862,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:54.719Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 3.055258996784687,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:55.691Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:55.691Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:55.858Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.1664252020418644,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:29:55.858Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.16641939803957939,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "No Interaction",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:30:10.953Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Briefing Condition"
+}
+{
+	"timestampISO8601": "2025-06-02T14:30:10.953Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Briefing Condition"
+}
+{
+	"timestampISO8601": "2025-06-02T14:30:11.118Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.16640469804406166,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Briefing Condition"
+}
+{
+	"timestampISO8601": "2025-06-02T14:30:11.119Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.16639950126409531,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Briefing Condition"
+}
+{
+	"timestampISO8601": "2025-06-02T14:30:38.502Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Introduction)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:30:38.502Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Introduction)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:30:38.668Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.16659009829163551,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Introduction)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:30:38.668Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.16650750115513802,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Introduction)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:30:56.778Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:30:56.778Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:30:57.069Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.29140309989452362,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:30:57.070Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.29138559848070145,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:03.082Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:03.082Z",
+	"eventType": "Press",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:04.110Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 1.0278596989810467,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:04.110Z",
+	"eventType": "Release",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 1.0278232023119926,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:06.110Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:06.110Z",
+	"eventType": "Press",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:06.610Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0.50005070120096207,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:06.610Z",
+	"eventType": "Release",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 0.50004709884524345,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:07.207Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:07.207Z",
+	"eventType": "Press",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:23.329Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 16.122472699731588,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:23.329Z",
+	"eventType": "Release",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 16.122530102729797,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:28.120Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:28.121Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:28.718Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.59726219996809959,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:28.718Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.59723339974880219,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:29.092Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:29.092Z",
+	"eventType": "Press",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:30.564Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 1.4719917997717857,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:30.565Z",
+	"eventType": "Release",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 1.4719919003546238,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:31.801Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:31.801Z",
+	"eventType": "Press",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:37.468Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 5.667772401124239,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:37.469Z",
+	"eventType": "Release",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 5.6677814982831478,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:38.551Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:38.552Z",
+	"eventType": "Press",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:43.327Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 4.7747293002903461,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:43.327Z",
+	"eventType": "Release",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 4.7746874019503593,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:47.548Z",
+	"eventType": "Press",
+	"buttonId": "IA_Grab_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:47.548Z",
+	"eventType": "Press",
+	"buttonId": "LeftGrab",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:50.103Z",
+	"eventType": "Release",
+	"buttonId": "IA_Grab_Left",
+	"controllerId": "Left",
+	"durationSeconds": 2.5550692975521088,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:50.103Z",
+	"eventType": "Release",
+	"buttonId": "LeftGrab",
+	"controllerId": "Left",
+	"durationSeconds": 2.5550724007189274,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:51.047Z",
+	"eventType": "Press",
+	"buttonId": "IA_Grab_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:51.048Z",
+	"eventType": "Press",
+	"buttonId": "LeftGrab",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:53.659Z",
+	"eventType": "Release",
+	"buttonId": "IA_Grab_Left",
+	"controllerId": "Left",
+	"durationSeconds": 2.6113137006759644,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:53.659Z",
+	"eventType": "Release",
+	"buttonId": "LeftGrab",
+	"controllerId": "Left",
+	"durationSeconds": 2.6113510020077229,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:54.297Z",
+	"eventType": "Press",
+	"buttonId": "IA_Grab_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:54.298Z",
+	"eventType": "Press",
+	"buttonId": "LeftGrab",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:56.756Z",
+	"eventType": "Release",
+	"buttonId": "IA_Grab_Left",
+	"controllerId": "Left",
+	"durationSeconds": 2.459010299295187,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:56.757Z",
+	"eventType": "Release",
+	"buttonId": "LeftGrab",
+	"controllerId": "Left",
+	"durationSeconds": 2.4589812010526657,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:58.132Z",
+	"eventType": "Press",
+	"buttonId": "IA_Grab_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:31:58.132Z",
+	"eventType": "Press",
+	"buttonId": "RightGrab",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:00.604Z",
+	"eventType": "Release",
+	"buttonId": "IA_Grab_Right",
+	"controllerId": "Right",
+	"durationSeconds": 2.4727488979697227,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:00.605Z",
+	"eventType": "Release",
+	"buttonId": "RightGrab",
+	"controllerId": "Right",
+	"durationSeconds": 2.4727520979940891,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:01.549Z",
+	"eventType": "Press",
+	"buttonId": "IA_Grab_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:01.549Z",
+	"eventType": "Press",
+	"buttonId": "RightGrab",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:04.064Z",
+	"eventType": "Release",
+	"buttonId": "IA_Grab_Right",
+	"controllerId": "Right",
+	"durationSeconds": 2.5145396031439304,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:04.064Z",
+	"eventType": "Release",
+	"buttonId": "RightGrab",
+	"controllerId": "Right",
+	"durationSeconds": 2.514554500579834,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:04.685Z",
+	"eventType": "Press",
+	"buttonId": "IA_Grab_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:04.685Z",
+	"eventType": "Press",
+	"buttonId": "RightGrab",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Spawn (Grab))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:07.045Z",
+	"eventType": "Release",
+	"buttonId": "IA_Grab_Right",
+	"controllerId": "Right",
+	"durationSeconds": 2.3603985011577606,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Conduct (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:07.045Z",
+	"eventType": "Release",
+	"buttonId": "RightGrab",
+	"controllerId": "Right",
+	"durationSeconds": 2.3604196012020111,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Conduct (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:10.600Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Conduct (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:10.600Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Conduct (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:13.086Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 2.4857851006090641,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Conduct (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:13.086Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 2.4857925996184349,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Conduct (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:15.182Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Conduct (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:15.183Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Conduct (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:17.835Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 2.6515072993934155,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Conduct (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:17.835Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 2.6515292003750801,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Conduct (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:19.225Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Conduct (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:19.225Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Right Conduct (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:21.655Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 2.4311318024992943,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Pull (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:21.656Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 2.4311286993324757,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Pull (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:23.183Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Pull (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:23.184Z",
+	"eventType": "Press",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Pull (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:25.684Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 2.5006885007023811,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Pull (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:25.684Z",
+	"eventType": "Release",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 2.5006884001195431,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Pull (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:26.240Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Pull (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:26.240Z",
+	"eventType": "Press",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Pull (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:28.698Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 2.4589386992156506,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Pull (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:28.699Z",
+	"eventType": "Release",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 2.4589715003967285,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Pull (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:29.281Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Pull (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:29.281Z",
+	"eventType": "Press",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Left Pull (Trigger))"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:31.666Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 2.3846226967871189,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Tutorial Complete)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:31.667Z",
+	"eventType": "Release",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 2.3846038989722729,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Tutorial Complete)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:36.985Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Tutorial Complete)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:36.985Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Tutorial Complete)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:37.193Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.20805710181593895,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Tutorial Complete)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:37.193Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.20804690197110176,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "Interaction Tutorial",
+	"appState": "Interaction Tutorial (Tutorial Complete)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:50.316Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Preparation Phase"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:50.316Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Preparation Phase"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:50.566Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.24998049810528755,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Preparation Phase"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:50.566Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.24994860216975212,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Preparation Phase"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:52.552Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Preparation Phase"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:52.552Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Preparation Phase"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:52.761Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.20834789797663689,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Preparation Phase"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:52.761Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.20833959802985191,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Preparation Phase"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:57.302Z",
+	"eventType": "Press",
+	"buttonId": "IA_Grab_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:32:57.302Z",
+	"eventType": "Press",
+	"buttonId": "RightGrab",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:02.688Z",
+	"eventType": "Release",
+	"buttonId": "IA_Grab_Right",
+	"controllerId": "Right",
+	"durationSeconds": 5.3873176984488964,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:02.689Z",
+	"eventType": "Release",
+	"buttonId": "RightGrab",
+	"controllerId": "Right",
+	"durationSeconds": 5.3873715996742249,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:03.383Z",
+	"eventType": "Press",
+	"buttonId": "IA_Grab_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:03.384Z",
+	"eventType": "Press",
+	"buttonId": "LeftGrab",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:12.006Z",
+	"eventType": "Release",
+	"buttonId": "IA_Grab_Left",
+	"controllerId": "Left",
+	"durationSeconds": 8.6224035993218422,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:12.006Z",
+	"eventType": "Release",
+	"buttonId": "LeftGrab",
+	"controllerId": "Left",
+	"durationSeconds": 8.6223990023136139,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:13.964Z",
+	"eventType": "Press",
+	"buttonId": "IA_Grab_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:13.965Z",
+	"eventType": "Press",
+	"buttonId": "LeftGrab",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:14.006Z",
+	"eventType": "Press",
+	"buttonId": "IA_Grab_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:14.006Z",
+	"eventType": "Press",
+	"buttonId": "RightGrab",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:21.268Z",
+	"eventType": "Release",
+	"buttonId": "IA_Grab_Left",
+	"controllerId": "Left",
+	"durationSeconds": 7.303329199552536,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:21.268Z",
+	"eventType": "Release",
+	"buttonId": "LeftGrab",
+	"controllerId": "Left",
+	"durationSeconds": 7.3033187016844749,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:21.337Z",
+	"eventType": "Release",
+	"buttonId": "IA_Grab_Right",
+	"controllerId": "Right",
+	"durationSeconds": 7.3313870020210743,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:21.337Z",
+	"eventType": "Release",
+	"buttonId": "RightGrab",
+	"controllerId": "Right",
+	"durationSeconds": 7.3313694000244141,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:22.407Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:22.407Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:22.976Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.56958010047674179,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:22.976Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.56954649835824966,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:24.823Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:24.823Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:32.601Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 7.7782768979668617,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:32.601Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 7.7782416976988316,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:34.475Z",
+	"eventType": "Press",
+	"buttonId": "IA_Grab_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:34.476Z",
+	"eventType": "Press",
+	"buttonId": "RightGrab",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:43.335Z",
+	"eventType": "Release",
+	"buttonId": "IA_Grab_Right",
+	"controllerId": "Right",
+	"durationSeconds": 8.8601588010787964,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:43.335Z",
+	"eventType": "Release",
+	"buttonId": "RightGrab",
+	"controllerId": "Right",
+	"durationSeconds": 8.8602069988846779,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:43.737Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:43.738Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:56.612Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 12.873982097953558,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:56.613Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 12.873941197991371,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:57.680Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:57.680Z",
+	"eventType": "Press",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:59.817Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 2.1374989971518517,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:33:59.818Z",
+	"eventType": "Release",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 2.1375735998153687,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:00.999Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:00.999Z",
+	"eventType": "Press",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:15.968Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 14.969037402421236,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:15.968Z",
+	"eventType": "Release",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 14.969087198376656,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:17.677Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:17.677Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:33.258Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 15.580338001251221,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:33.258Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 15.58038330078125,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:35.229Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:35.229Z",
+	"eventType": "Press",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:43.313Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 8.0839917995035648,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:43.313Z",
+	"eventType": "Release",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 8.0840076990425587,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:44.244Z",
+	"eventType": "Press",
+	"buttonId": "IA_Grab_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:44.244Z",
+	"eventType": "Press",
+	"buttonId": "LeftGrab",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:44.244Z",
+	"eventType": "Press",
+	"buttonId": "IA_Grab_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:44.244Z",
+	"eventType": "Press",
+	"buttonId": "RightGrab",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:52.866Z",
+	"eventType": "Release",
+	"buttonId": "IA_Grab_Left",
+	"controllerId": "Left",
+	"durationSeconds": 8.6229337006807327,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:52.867Z",
+	"eventType": "Release",
+	"buttonId": "LeftGrab",
+	"controllerId": "Left",
+	"durationSeconds": 8.6229619979858398,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:52.880Z",
+	"eventType": "Release",
+	"buttonId": "IA_Grab_Right",
+	"controllerId": "Right",
+	"durationSeconds": 8.6364571005105972,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:52.881Z",
+	"eventType": "Release",
+	"buttonId": "RightGrab",
+	"controllerId": "Right",
+	"durationSeconds": 8.636582400649786,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:53.590Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:53.590Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:53.645Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:53.645Z",
+	"eventType": "Press",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:54.283Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0.6390146017074585,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:54.283Z",
+	"eventType": "Release",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 0.63900250196456909,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:54.352Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.76260889694094658,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:54.352Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.76269520074129105,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:54.797Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:54.797Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:58.033Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 3.236395601183176,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:34:58.033Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 3.2363927997648716,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:04.574Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:04.574Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:06.045Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 1.4718497022986412,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:06.045Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 1.4719030000269413,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:07.281Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:07.281Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:08.003Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.72224179655313492,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:08.003Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.72226740047335625,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:08.670Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:08.670Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:09.224Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.55377509817481041,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:09.224Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.55383240059018135,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:09.918Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:09.919Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:10.585Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.66605359688401222,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:10.585Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.66614910215139389,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:11.195Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:11.195Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:11.751Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.55557510256767273,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:11.752Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.5555713027715683,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:12.432Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:12.432Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:13.071Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.63886209949851036,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:13.071Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.63885070011019707,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:13.750Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:13.751Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:14.252Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.50125600025057793,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:14.253Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.50140820071101189,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:15.378Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:15.378Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:16.057Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.67960219830274582,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:16.057Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.67966949939727783,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:17.363Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:17.363Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:18.082Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.72017740085721016,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:18.082Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.72015789896249771,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:18.666Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:18.666Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:19.125Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.45873129740357399,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:19.126Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.45874200016260147,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:19.847Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:19.848Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:20.347Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.5000448003411293,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:20.347Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.50000439956784248,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:20.945Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:20.945Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:21.652Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.70819530263543129,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:21.653Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.70821920037269592,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:22.013Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:22.014Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:23.916Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 1.9020349979400635,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:23.916Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 1.9020258001983166,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:25.124Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:25.124Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:25.986Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.86186869814991951,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:25.986Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.86187530308961868,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:26.792Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:26.792Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:27.749Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.95822130143642426,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:27.750Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.95816550031304359,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:28.916Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:28.916Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:29.763Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.84666040167212486,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:29.763Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.8466619998216629,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:29.955Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:29.955Z",
+	"eventType": "Press",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:32.471Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 2.515676598995924,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:32.471Z",
+	"eventType": "Release",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 2.5156664997339249,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:33.055Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:33.055Z",
+	"eventType": "Press",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:34.472Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Left",
+	"controllerId": "Left",
+	"durationSeconds": 1.4174115993082523,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:34.472Z",
+	"eventType": "Release",
+	"buttonId": "LeftTrigger",
+	"controllerId": "Left",
+	"durationSeconds": 1.4173589013516903,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:35.180Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:35.180Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Running Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:40.872Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 5.6918889991939068,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Fading Out Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:40.872Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 5.6918361969292164,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Fading Out Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:41.788Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Fading Out Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:41.788Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Fading Out Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:43.441Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 1.6528850011527538,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Fading Out Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:43.441Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 1.6529038995504379,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Fading Out Visualization"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:48.611Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:48.611Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:50.681Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 2.0697497017681599,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:50.681Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 2.0697485990822315,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:51.570Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:51.570Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:52.153Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.58335500210523605,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:52.153Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.58336219936609268,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:53.861Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:53.861Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:54.541Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.6801999993622303,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:54.541Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.68018180131912231,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:55.083Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:55.083Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:57.124Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 2.0414544008672237,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:57.125Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 2.0414784997701645,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:59.153Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:35:59.153Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:01.776Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 2.6244585998356342,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:01.777Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 2.624471303075552,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:02.568Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:02.568Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:02.748Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.18020980060100555,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:02.749Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.18021290004253387,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "SAM Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:07.372Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:07.373Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:07.970Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.59668530151247978,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:07.970Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.59667870029807091,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:09.344Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:09.344Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:10.386Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 1.041669700294733,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:10.386Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 1.0416559986770153,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:11.649Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:11.649Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:14.219Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 2.5696798972785473,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:14.219Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 2.569693498313427,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:15.537Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:15.537Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:16.719Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 1.1805678009986877,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:16.719Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 1.1805432997643948,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:17.732Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:17.732Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:21.940Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 4.2077958025038242,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:21.940Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 4.2078084014356136,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:23.189Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:23.190Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:23.675Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.48579559847712517,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:23.676Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.48578659817576408,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:24.468Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:24.468Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:24.661Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.19395950064063072,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:24.662Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.19398699700832367,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 1)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:29.091Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:29.091Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:30.868Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 1.7769876979291439,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:30.869Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 1.7769954986870289,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:32.299Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:32.299Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:32.980Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.68036909773945808,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:32.980Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.68035519868135452,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:35.522Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:35.522Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:36.812Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 1.2914196997880936,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:36.813Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 1.2914002984762192,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:37.437Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:37.437Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:37.632Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.19451069831848145,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:37.632Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.19450649991631508,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "GEMS Evaluation (Part 2)"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:40.590Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:40.590Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:41.368Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.77784710004925728,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:41.368Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.77783039957284927,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:42.646Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:42.646Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:45.285Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 2.6387447975575924,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:45.285Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 2.6387604996562004,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:46.812Z",
+	"eventType": "Press",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:46.812Z",
+	"eventType": "Press",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:47.006Z",
+	"eventType": "Release",
+	"buttonId": "IA_Trigger_Right",
+	"controllerId": "Right",
+	"durationSeconds": 0.19425930082798004,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Presence Evaluation"
+}
+{
+	"timestampISO8601": "2025-06-02T14:36:47.007Z",
+	"eventType": "Release",
+	"buttonId": "RightTrigger",
+	"controllerId": "Right",
+	"durationSeconds": 0.19424569979310036,
+	"participantId": "45",
+	"sessionId": "20250602_141444",
+	"conditionId": "With Interaction",
+	"appState": "Presence Evaluation"
+}
